@@ -88,7 +88,7 @@ def _parse_product(raw: dict) -> Product | None:
     if str(raw.get("status", "")).lower() == "pending":
         url = ""
     if not image and url:
-        log.warning("Produto '%s' sem imagem de mockup: será usado um fundo gráfico.", title)
+        log.debug("Produto '%s' sem imagem: a arte será 100%% criada.", title)
 
     stats_raw = raw.get("stats") or {}
     stats = ProductStats(

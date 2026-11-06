@@ -162,6 +162,7 @@ class Settings:
     refill_min_days: float = field(default_factory=lambda: _env_float("REFILL_MIN_DAYS", 5))
     refill_max_products: int = field(default_factory=lambda: _env_int("REFILL_MAX_PRODUCTS", 15))
     runs_per_day: int = field(default_factory=lambda: _env_int("RUNS_PER_DAY", 4))
+    ai_designs: bool = field(default_factory=lambda: _env_bool("AI_DESIGNS", True))  # artes criadas pelo Claude
 
     # API Anthropic (opcional: só usada com EMPTY_QUEUE_POLICY=api)
     anthropic_api_key: str = field(default_factory=lambda: _env("ANTHROPIC_API_KEY"))

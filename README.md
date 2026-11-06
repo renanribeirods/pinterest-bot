@@ -46,6 +46,27 @@ data/copy_cache_actions.json  # copies geradas no Actions (só com EMPTY_QUEUE_P
 
 ---
 
+## 🎨 Artes criadas pelo Claude
+
+Para cada variação, o refill do PC pede ao Claude um **design de Pin em HTML/CSS com ilustrações SVG**. Cada variação recebe um conceito diferente, seguindo os formatos que mais engajam no Pinterest:
+- pôster tipográfico;
+- listicle ou checklist;
+- problema → solução;
+- prévia estilizada do material;
+- flat-lay de mesa;
+- mural de post-its;
+- capa editorial;
+- tema sazonal.
+
+**Como a arte vira imagem e chega ao Pin:**
+- O navegador (Chrome ou Edge) converte o HTML em imagem 1000×1500. Isso já é feito no PC para validar: design quebrado é descartado na hora.
+- O HTML fica em `data/designs/<produto>/c<ciclo>_v<n>.html`. O GitHub Actions só renderiza esse HTML na hora de publicar, porque o Chrome já vem no runner.
+- A capa ou o mockup do produto, quando existe, entra como elemento da arte. Sem imagem, a arte é 100% criada.
+- Regras de honestidade no prompt: nada de avaliações, "best seller" ou números inventados. Só usa o texto da copy aprovada.
+- Sem arte disponível, o bot usa os templates Pillow como reserva.
+- Para desligar as artes: `AI_DESIGNS=false` no `.env` do PC.
+- As prévias ficam em `output/previews/`.
+
 ## 🖥 Fila de copies gerada no seu PC
 
 ```

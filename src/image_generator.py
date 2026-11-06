@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import io
 import random
+import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -13,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 from .config import FONTS_DIR, OUTPUT_DIR, PIN_HEIGHT as H, PIN_WIDTH as W, ROOT
 from .ingestion import Product
 from .logger import get_logger
+from .pin_designer import design_path, render_design
 from .seo_copywriter import PinCopy
 
 log = get_logger("image")
@@ -454,7 +456,18 @@ def template_plan(product_id: str, cycle: int) -> list[str]:
 
 
 def generate_pin(product: Product, copy: PinCopy, cycle: int, variant_index: int) -> tuple[Path, str]:
-    """Renderiza a variação e retorna (caminho do arquivo, nome do template)."""
+    """Renderiza a variação e retorna (caminho do arquivo, nome do template).
+
+    Prioridade: arte criada pelo Claude (data/designs) -> templates Pillow como reserva."""
+    if design_path(product.id, cycle, variant_index).exists():
+        out = OUTPUT_DIR / f"{product.id}_c{cycle}_v{variant_index}_ai.jpg"
+        try:
+            render_design(product.id, cycle, variant_index, out)
+            log.info("Pin gerado: %s (arte criada pelo Claude)", out.name)
+            return out, "ai_design"
+        except (RuntimeError, OSError, subprocess.TimeoutExpired) as exc:
+            log.warning("Falha ao renderizar a arte do Claude (%s); usando template Pillow.", exc)
+
     rng = random.Random(f"{product.id}:{cycle}:{variant_index}")
     template_name = template_plan(product.id, cycle)[variant_index % len(TEMPLATES)]
     profile = product.profile

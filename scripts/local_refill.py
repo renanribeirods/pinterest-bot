@@ -30,6 +30,9 @@ sys.path.insert(0, str(ROOT))
 
 from src.config import COPY_CACHE_FILE, PRODUCTS_FILE, settings  # noqa: E402
 from src.store_sync import sync as sync_stores  # noqa: E402
+from src.pin_designer import (  # noqa: E402
+    DESIGN_SCHEMA, DESIGN_SYSTEM_PROMPT, DESIGNS_DIR, build_design_prompt, design_path, designs_ready, render_html,
+)
 from src.history import History  # noqa: E402
 from src.ingestion import Product, load_products  # noqa: E402
 from src.logger import get_logger  # noqa: E402
@@ -40,6 +43,7 @@ from src.seo_copywriter import (  # noqa: E402
 
 LOG_DIR = ROOT / "logs"
 LOCK_FILE = ROOT / "logs" / "refill.lock"
+PREVIEW_DIR = ROOT / "output" / "previews"   # prévias das artes (não vão para o Git)
 log = get_logger("refill")
 
 
@@ -68,7 +72,8 @@ def git_pull() -> None:
 
 
 def git_push_cache() -> None:
-    git("add", str(COPY_CACHE_FILE.relative_to(ROOT)), str(PRODUCTS_FILE.relative_to(ROOT)))
+    git("add", str(COPY_CACHE_FILE.relative_to(ROOT)), str(PRODUCTS_FILE.relative_to(ROOT)),
+        str(DESIGNS_DIR.relative_to(ROOT)))
     if git("diff", "--cached", "--quiet", check=False).returncode == 0:
         log.info("Nada novo para enviar.")
         return
@@ -107,18 +112,19 @@ def find_claude_bin() -> str:
     raise FileNotFoundError("Claude Code não encontrado. Instale-o ou defina CLAUDE_BIN no .env.")
 
 
-def generate_with_claude_code(claude_bin: str, product: Product, n: int, cycle: int) -> list[dict]:
+def run_claude(claude_bin: str, prompt: str, system: str, schema: dict, timeout: int = 600) -> dict:
+    """Chamada headless ao Claude Code da sua conta, com saída JSON validada pelo schema."""
     cmd = [
-        claude_bin, "-p", build_prompt(product, n, cycle),
+        claude_bin, "-p", prompt,
         "--output-format", "json",
-        "--json-schema", json.dumps(COPY_SCHEMA),
-        "--system-prompt", SYSTEM_PROMPT,
-        "--tools", "",                     # sem ferramentas: só escrever texto
+        "--json-schema", json.dumps(schema),
+        "--system-prompt", system,
+        "--tools", "",                     # sem ferramentas: só escrever
         "--no-session-persistence",
         "--model", settings.local_claude_model,
     ]
     with tempfile.TemporaryDirectory() as tmp:  # pasta vazia: sem CLAUDE.md/projeto no contexto
-        r = subprocess.run(cmd, cwd=tmp, input="", capture_output=True, text=True, encoding="utf-8", timeout=600)
+        r = subprocess.run(cmd, cwd=tmp, input="", capture_output=True, text=True, encoding="utf-8", timeout=timeout)
     try:
         data = json.loads(r.stdout)
     except json.JSONDecodeError:
@@ -132,12 +138,38 @@ def generate_with_claude_code(claude_bin: str, product: Product, n: int, cycle: 
         if "limit" in msg.lower() or data.get("api_error_status") == 429:
             raise UsageLimitReached(msg)
         raise RuntimeError(f"Claude Code retornou erro: {msg}")
+    return data.get("structured_output") or json.loads(data.get("result") or "{}")
 
-    output = data.get("structured_output") or json.loads(data.get("result") or "{}")
-    variants = output.get("variants") or []
+
+def generate_copies(claude_bin: str, product: Product, n: int, cycle: int) -> list[dict]:
+    variants = run_claude(claude_bin, build_prompt(product, n, cycle), SYSTEM_PROMPT, COPY_SCHEMA).get("variants") or []
     if len(variants) < n:
         raise RuntimeError(f"Claude Code retornou {len(variants)} variações (esperado {n}).")
     return variants[:n]
+
+
+def generate_designs(claude_bin: str, product: Product, copies: list[dict], cycle: int) -> int:
+    """Pede ao Claude os designs (HTML) das variações, valida renderizando cada um e grava os que passarem."""
+    out = run_claude(claude_bin, build_design_prompt(product, copies, cycle), DESIGN_SYSTEM_PROMPT,
+                     DESIGN_SCHEMA, timeout=900)
+    designs = out.get("designs") or []
+    saved = 0
+    for i, d in enumerate(designs[: len(copies)]):
+        html = (d.get("html") or "").strip()
+        if "<html" not in html.lower():
+            log.warning("  design %d de '%s' veio sem HTML válido.", i + 1, product.title)
+            continue
+        path = design_path(product.id, cycle, i)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(html, encoding="utf-8")
+        try:  # renderiza já no PC: design quebrado nunca vai para a fila
+            render_html(path, PREVIEW_DIR / f"{product.id}_c{cycle}_v{i}.jpg")
+            saved += 1
+            log.info("  v%d: %s", i + 1, d.get("concept", "")[:60])
+        except RuntimeError as exc:
+            path.unlink(missing_ok=True)
+            log.warning("  design %d de '%s' descartado: %s", i + 1, product.title, exc)
+    return saved
 
 
 # ---------------------------------------------------------------------------
@@ -155,13 +187,13 @@ def analyse_queue(products: list[Product], history: History):
 
         if copy_ready(p.id, cycle, n):
             ready_pins += remaining
-        else:
+        if not (copy_ready(p.id, cycle, n) and (designs_ready(p.id, cycle, n) or not settings.ai_designs)):
             needs.append((p, cycle, n, state["posts"] == 0 and cycle == 0))
         # adianta o próximo ciclo quando o atual está acabando
         if remaining <= 1:
             if copy_ready(p.id, cycle + 1, n):
                 ready_pins += n
-            else:
+            if not (copy_ready(p.id, cycle + 1, n) and (designs_ready(p.id, cycle + 1, n) or not settings.ai_designs)):
                 needs.append((p, cycle + 1, n, False))
 
     per_day = max(1, settings.pins_per_run * settings.runs_per_day)
@@ -216,15 +248,20 @@ def main() -> int:
             key = cache_key(product.id, cycle)
             for attempt in range(2):
                 try:
-                    variants = generate_with_claude_code(claude_bin, product, n, cycle)
-                    cache[key] = {
-                        "source": f"claude-code:{settings.local_claude_model}",
-                        "generated_at": date.today().isoformat(),
-                        "variants": variants,
-                    }
-                    save_cache(cache)
-                    generated += 1
-                    log.info("✓ %s (ciclo %d): %d copies [%s]", product.title, cycle, n, product.locale)
+                    if not copy_ready(product.id, cycle, n):
+                        variants = generate_copies(claude_bin, product, n, cycle)
+                        cache[key] = {
+                            "source": f"claude-code:{settings.local_claude_model}",
+                            "generated_at": date.today().isoformat(),
+                            "variants": variants,
+                        }
+                        save_cache(cache)
+                        generated += 1
+                        log.info("✓ %s (ciclo %d): %d copies [%s]", product.title, cycle, n, product.locale)
+                    if settings.ai_designs and not designs_ready(product.id, cycle, n):
+                        saved = generate_designs(claude_bin, product, cache[key]["variants"][:n], cycle)
+                        generated += 1 if saved else 0
+                        log.info("✓ %s (ciclo %d): %d/%d artes criadas", product.title, cycle, saved, n)
                     break
                 except UsageLimitReached as exc:
                     log.warning("Limite de uso da assinatura atingido; continuo na próxima execução. (%s)", exc)
