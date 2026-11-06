@@ -84,7 +84,7 @@ PLATFORMS: dict[str, dict] = {
             "warm, practical and pedagogical, written for busy K-12 teachers and homeschool parents in the US; "
             "highlight time saved, student engagement, standards alignment and 'no-prep / print and go' value"
         ),
-        "badges": ["Top Rated", "Teacher Favorite", "No Prep", "Print & Go", "Digital Download", "Best Seller"],
+        "badges": ["Print & Go", "Digital Download", "Ready to Use", "Instant Download"],
         "ctas": ["Grab Yours Today", "Instant Download", "Link in Description", "Shop Now on TpT", "Save for Later"],
         "eyebrows": ["Classroom Resource", "For Teachers", "Ready to Print", "Save Hours of Prep"],
     },
@@ -96,7 +96,7 @@ PLATFORMS: dict[str, dict] = {
             "warm, professional and pedagogical, written for UK teachers (primary and secondary); "
             "use British spelling and vocabulary (colour, organise, favourite, maths, Year 6, KS2, pupils, lesson plans)"
         ),
-        "badges": ["Top Rated", "Teacher Favourite", "No Prep", "Ready to Teach", "Digital Download", "Best Seller"],
+        "badges": ["Ready to Teach", "Digital Download", "Instant Download", "Print & Teach"],
         "ctas": ["Download Today", "Instant Download", "Link in the Description", "Get Yours Now", "Save for Later"],
         "eyebrows": ["Classroom Resource", "For UK Teachers", "Ready to Teach", "Save Hours of Planning"],
     },
@@ -108,7 +108,7 @@ PLATFORMS: dict[str, dict] = {
             "calm, aesthetic and aspirational, focused on organization, clarity and productivity; "
             "speak to students, creators and professionals who want a beautiful, plug-and-play system"
         ),
-        "badges": ["Notion Template", "Plug & Play", "Aesthetic Setup", "Top Rated", "Instant Access", "Best Seller"],
+        "badges": ["Notion Template", "Plug & Play", "Aesthetic Setup", "Instant Access", "Duplicate in 1 Click", "Ready to Use"],
         "ctas": ["Get the Template", "Duplicate in 1 Click", "Link in Description", "Organize Your Life", "Save for Later"],
         "eyebrows": ["Notion Template", "Productivity System", "Aesthetic Workspace", "Get Organized"],
     },
@@ -120,7 +120,7 @@ PLATFORMS: dict[str, dict] = {
             "friendly, aesthetic and gift-worthy, focused on beautiful design, organization and instant digital delivery; "
             "speak to planners, small business owners and aesthetic-lovers"
         ),
-        "badges": ["Digital Download", "Instant Download", "Best Seller", "Top Rated", "Printable", "Editable"],
+        "badges": ["Digital Download", "Instant Download", "Printable", "US Letter & A4", "Print at Home"],
         "ctas": ["Shop Now", "Instant Download", "Link in Description", "Get Yours Today", "Save for Later"],
         "eyebrows": ["Digital Download", "Printable", "Shop Small", "Aesthetic Planner"],
     },
