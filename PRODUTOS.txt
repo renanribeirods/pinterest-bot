@@ -4,6 +4,10 @@
 #  Uma linha por produto:
 #      Nome do produto | link | observações (opcional)
 #
+#  ETSY: o Etsy traduz o nome do anúncio para português no link. Escreva o nome em inglês
+#  antes do link (ex.: "Tax Organizer Printable | https://www.etsy.com/...") ou copie o link
+#  com o Etsy em inglês (idioma no rodapé do site).
+#
 #  
 #      
 #

@@ -51,6 +51,20 @@ class UsageLimitReached(RuntimeError):
     pass
 
 
+def _pid_alive(pid: str) -> bool:
+    """A trava só vale se o processo que a criou ainda existe (PC desligado/processo morto deixa trava órfã)."""
+    if not pid.isdigit():
+        return False
+    if os.name == "nt":
+        r = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH"], capture_output=True, text=True)
+        return pid in r.stdout
+    try:
+        os.kill(int(pid), 0)
+        return True
+    except OSError:
+        return False
+
+
 def _setup_file_log() -> None:
     LOG_DIR.mkdir(exist_ok=True)
     fh = logging.FileHandler(LOG_DIR / "refill.log", encoding="utf-8")
@@ -210,8 +224,10 @@ def main() -> int:
     _setup_file_log()
 
     if LOCK_FILE.exists():
-        log.info("Outro refill já está rodando (%s). Saindo.", LOCK_FILE)
-        return 0
+        if _pid_alive(LOCK_FILE.read_text().strip()):
+            log.info("Outro refill já está rodando (%s). Saindo.", LOCK_FILE)
+            return 0
+        log.info("Trava antiga de um refill interrompido encontrada; removendo.")
     LOCK_FILE.write_text(str(os.getpid()))
     use_git, generated, synced = not args.no_git and (ROOT / ".git").exists(), 0, False
     try:
