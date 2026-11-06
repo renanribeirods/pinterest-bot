@@ -21,6 +21,8 @@ from .ingestion import load_products
 from .logger import get_logger, write_step_summary
 from .pinterest_publisher import PinPayload, Publisher
 from .scheduler import select_jobs, variant_count_for
+from . import seo_copywriter
+from .notifier import clear as clear_alert, notify_error
 from .seo_copywriter import CopyNotReady, get_copy
 
 log = get_logger("main")
@@ -118,9 +120,46 @@ def run(count: int, dry_run: bool, jitter: bool) -> int:
             time.sleep(pause)
 
     _summary(published, failed, publisher.disabled, dry_run)
+    if not dry_run:
+        _alerts(published, failed, publisher.disabled, history, products)
     if jobs and not published and not dry_run:
         return 1  # faz o workflow ficar vermelho e o GitHub enviar e-mail de alerta
     return 0
+
+
+def _alerts(published, failed, disabled, history, products) -> None:
+    """Só avisa no celular quando algo dá errado (cada problema no máximo 1x a cada 24 h)."""
+    hints = {
+        "webhook": "Abra o Make e confira se o cenário 'Pinterest Bot - publicar Pins' está ativo e sem erros.",
+        "api": "Token da API do Pinterest expirado ou sem permissão.",
+    }
+    for name, reason in disabled.items():
+        notify_error(f"channel:{name}", f"canal '{name}' fora do ar",
+                     f"{reason}\n\nO que fazer: {hints.get(name, 'veja o log da execução.')}")
+    if failed:
+        notify_error("pin_failures", f"{len(failed)} Pin(s) não publicado(s)",
+                     "\n".join(f"- {t[:60]}: {e[:160]}" for t, e in failed)
+                     + "\n\nEles voltam para a fila e serão tentados de novo.")
+    elif published:
+        clear_alert("pin_failures")
+        for name in ("webhook", "api"):
+            if name not in disabled:
+                clear_alert(f"channel:{name}")
+
+    if seo_copywriter.TEMPLATE_FALLBACKS:
+        notify_error("queue_empty", "fila de copies do PC acabou",
+                     "Pins saíram com copy simples (sem IA): "
+                     + ", ".join(t[:40] for t in seo_copywriter.TEMPLATE_FALLBACKS)
+                     + "\n\nO que fazer: ligue o PC (o refill roda sozinho a cada 4 h) ou veja logs/refill.log.")
+    else:
+        clear_alert("queue_empty")
+
+    by_id = {p.id: p for p in products}
+    for pid, state in history.data["products"].items():
+        if pid in by_id and state.get("failures", 0) >= settings.max_consecutive_failures:
+            notify_error(f"product_disabled:{pid}", "produto pausado após falhas seguidas",
+                         f"{by_id[pid].title}\n{by_id[pid].url}\n\nÚltimo erro: {state.get('last_error', '')[:200]}"
+                         "\n\nO que fazer: confira se o link do produto ainda funciona.")
 
 
 def _summary(published, failed, disabled, dry_run) -> None:
@@ -148,7 +187,12 @@ def main() -> int:
 
     if args.preview:
         return preview(args.preview)
-    return run(args.count, args.dry_run, jitter=not args.no_jitter)
+    try:
+        return run(args.count, args.dry_run, jitter=not args.no_jitter)
+    except Exception as exc:  # noqa: BLE001
+        log.exception("Erro inesperado: %s", exc)
+        notify_error("crash", "o bot parou com um erro inesperado", f"{type(exc).__name__}: {exc}")
+        return 1
 
 
 if __name__ == "__main__":

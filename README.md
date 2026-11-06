@@ -67,6 +67,26 @@ Para cada variação, o refill do PC pede ao Claude um **design de Pin em HTML/C
 - Para desligar as artes: `AI_DESIGNS=false` no `.env` do PC.
 - As prévias ficam em `output/previews/`.
 
+## 🔔 Avisos de erro no celular (ntfy)
+
+O bot **só avisa quando algo dá errado**. Nada é enviado quando tudo vai bem.
+
+**Configurar no celular:**
+1. Instale o app **ntfy** (Play Store ou App Store).
+2. Toque em "+" e assine o tópico salvo no Secret `NTFY_TOPIC`, que também está no `.env` do PC.
+
+| Situação | Origem |
+|---|---|
+| Make/Pinterest fora do ar, Pin não publicado | GitHub |
+| Fila de copies acabou (PC desligado há dias) | GitHub |
+| Produto pausado após 3 falhas seguidas (link quebrado?) | GitHub |
+| Qualquer etapa do workflow falhou | GitHub |
+| Refill do PC falhou, Claude Code não encontrado, limite da assinatura com fila vazia, push falhou | PC |
+
+- Cada problema é avisado **no máximo 1 vez a cada 24 h** enquanto não for resolvido.
+- Tocar no aviso do GitHub abre o log da execução.
+- O tópico funciona como senha: não o compartilhe.
+
 ## 🖥 Fila de copies gerada no seu PC
 
 ```

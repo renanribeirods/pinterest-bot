@@ -123,6 +123,9 @@ def _season_hint(today: date) -> str:
 #   data/copy_cache_actions.json  -> escrito SOMENTE pelo GitHub Actions (política "api")
 # Cada arquivo tem um único escritor, então commits dos dois lados nunca conflitam.
 # ---------------------------------------------------------------------------
+TEMPLATE_FALLBACKS: list[str] = []  # produtos que saíram com copy de template nesta execução
+
+
 class CopyNotReady(Exception):
     """Não há copy pronta na fila para esta variação (e a política é 'skip')."""
 
@@ -309,6 +312,7 @@ def get_copy(product: Product, cycle: int, variant_index: int, variant_count: in
         if len(variants) < variant_count:
             log.warning("Fila de copies vazia para '%s' (ciclo %d): usando template. Ligue o PC para o refill.",
                         product.title, cycle)
+            TEMPLATE_FALLBACKS.append(product.title)
             variants = _template_copy(product, variant_count)
     return _sanitize(variants[variant_index % len(variants)], product)
 

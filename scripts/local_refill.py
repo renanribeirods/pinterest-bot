@@ -30,6 +30,7 @@ sys.path.insert(0, str(ROOT))
 
 from src.config import COPY_CACHE_FILE, PRODUCTS_FILE, settings  # noqa: E402
 from src.store_sync import sync as sync_stores  # noqa: E402
+from src.notifier import clear as clear_alert, notify_error  # noqa: E402
 from src.pin_designer import (  # noqa: E402
     DESIGN_SCHEMA, DESIGN_SYSTEM_PROMPT, DESIGNS_DIR, build_design_prompt, design_path, designs_ready, render_html,
 )
@@ -99,6 +100,9 @@ def git_push_cache() -> None:
             return
         log.warning("Push falhou (tentativa %d).", attempt + 1)
     log.error("Não foi possível fazer push. O commit ficou local e será enviado na próxima execução.")
+    notify_error("pc_push", "o PC não conseguiu enviar ao GitHub",
+                 "As copies/artes novas ficaram só no PC.\n\nO que fazer: confira a internet e o login do Git "
+                 "(rode 'git push' na pasta do projeto).")
 
 
 # ---------------------------------------------------------------------------
@@ -256,10 +260,14 @@ def main() -> int:
 
         # Prioridade: produtos novos primeiro, depois quem tem menos fila (ciclo atual antes do próximo)
         needs.sort(key=lambda x: (not x[3], x[1] - history.product_state(x[0].id)["cycle"]))
-        claude_bin = find_claude_bin()
+        try:
+            claude_bin = find_claude_bin()
+        except FileNotFoundError as exc:
+            notify_error("pc_claude_missing", "Claude Code não encontrado no PC", f"{exc}")
+            raise
         log.info("Usando Claude Code: %s (modelo %s)", claude_bin, settings.local_claude_model)
 
-        cache = load_cache()
+        cache, gen_failures = load_cache(), []
         for product, cycle, n, _ in needs[: settings.refill_max_products]:
             key = cache_key(product.id, cycle)
             for attempt in range(2):
@@ -281,16 +289,30 @@ def main() -> int:
                     break
                 except UsageLimitReached as exc:
                     log.warning("Limite de uso da assinatura atingido; continuo na próxima execução. (%s)", exc)
+                    if days < 1:  # só preocupa se a fila estiver quase vazia
+                        notify_error("pc_limit", "limite da assinatura do Claude e fila quase vazia",
+                                     "O refill vai tentar de novo nas próximas execuções. Se persistir por dias, "
+                                     "os Pins passam a sair com copy simples.")
                     raise
                 except (RuntimeError, subprocess.TimeoutExpired) as exc:
                     log.warning("Falha em '%s' (tentativa %d): %s", product.title, attempt + 1, exc)
+                    if attempt == 1:
+                        gen_failures.append(f"{product.title[:50]}: {str(exc)[:120]}")
     except UsageLimitReached:
         pass
+    except Exception as exc:  # noqa: BLE001
+        log.exception("Erro inesperado no refill: %s", exc)
+        notify_error("pc_crash", "o refill do PC parou com um erro", f"{type(exc).__name__}: {exc}\n\nVeja logs/refill.log.")
     finally:
         if use_git and (generated or synced):
             git_push_cache()
         LOCK_FILE.unlink(missing_ok=True)
 
+    if locals().get("gen_failures"):
+        notify_error("pc_generation", f"{len(gen_failures)} produto(s) sem copy/arte nova",
+                     "\n".join(gen_failures) + "\n\nSerão tentados de novo no próximo refill.")
+    else:
+        clear_alert("pc_generation")
     log.info("Refill concluído: %d conjuntos gerados.", generated)
     return 0
 

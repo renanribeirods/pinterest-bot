@@ -66,6 +66,7 @@ jobs:
           PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
           PINTEREST_BOARD_MAP: ${{ secrets.PINTEREST_BOARD_MAP }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # avisos de erro no celular (app ntfy)
           # --- Variables (Settings > Variables; todas opcionais) ---
           PUBLISH_CHANNELS: ${{ vars.PUBLISH_CHANNELS || 'webhook,api' }}
           IMAGE_HOST: ${{ vars.IMAGE_HOST || 'github' }}
@@ -93,6 +94,7 @@ jobs:
           git config user.email "pinterest-bot@users.noreply.github.com"
           # copy_cache.json é escrito só pelo seu PC; o Actions grava apenas o próprio estado
           git add data/history.json
+          if [ -f data/notify_state.json ]; then git add data/notify_state.json; fi
           if [ -f data/copy_cache_actions.json ]; then git add data/copy_cache_actions.json; fi
           if git diff --cached --quiet; then
             echo "Sem mudanças de estado."
@@ -106,3 +108,12 @@ jobs:
           done
           echo "::error::Não foi possível gravar o histórico."
           exit 1
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          # Rede de segurança: avisa no celular se alguma etapa falhou e o bot ainda não mandou aviso específico
+          if [ -z "$NTFY_TOPIC" ] || [ -f "$RUNNER_TEMP/pinbot_notified" ]; then exit 0; fi
+          curl -s -H "Title: Pinterest Bot (GitHub): a execucao falhou" -H "Priority: high" -H "Tags: warning"             -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"             -d "Uma etapa do workflow falhou. Toque para abrir o log da execucao." "https://ntfy.sh/$NTFY_TOPIC"
