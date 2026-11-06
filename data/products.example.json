@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": "tpt-fractions-escape-room",
+      "title": "Fractions Escape Room - 4th Grade Math Review Activity",
+      "description": "A no-prep, printable and digital escape room where 4th graders practice equivalent fractions, comparing fractions and adding fractions with like denominators. Includes answer keys, teacher guide and Google Slides version.",
+      "url": "https://www.teacherspayteachers.com/Product/example-fractions-escape-room",
+      "platform": "tpt",
+      "image_url": "https://picsum.photos/seed/fractions/1200/900",
+      "created_at": "2026-10-20T10:00:00Z",
+      "tags": [
+        "fractions activity",
+        "4th grade math",
+        "escape room",
+        "math review"
+      ],
+      "price": "$4.50"
+    },
+    {
+      "id": "tes-ks2-reading-comprehension",
+      "title": "KS2 Reading Comprehension Pack - Year 5 & 6 Autumn Term",
+      "description": "Twelve differentiated reading comprehension texts with questions and answer sheets for Year 5 and Year 6 pupils, aligned to the KS2 English curriculum. Ready to print for guided reading sessions.",
+      "url": "https://www.tes.com/teaching-resource/example-ks2-reading-comprehension",
+      "platform": "tes.com",
+      "image_url": "https://picsum.photos/seed/reading/1000/1200",
+      "created_at": "2026-10-22T09:00:00Z",
+      "tags": [
+        "KS2 reading",
+        "reading comprehension",
+        "Year 6 English",
+        "guided reading"
+      ],
+      "price": "£3.00"
+    },
+    {
+      "id": "notion-student-planner",
+      "title": "Ultimate Student Planner - Aesthetic Notion Template",
+      "description": "An all-in-one Notion dashboard for students: class schedule, assignment tracker with due-date reminders, exam planner, habit tracker and reading list. Minimal neutral aesthetic, duplicate in one click.",
+      "url": "https://www.notion.com/templates/example-student-planner",
+      "platform": "Notion Marketplace",
+      "image_url": "https://picsum.photos/seed/notion/1400/900",
+      "created_at": "2026-10-15T12:00:00Z",
+      "tags": [
+        "notion template",
+        "student planner",
+        "aesthetic notion",
+        "study planner"
+      ]
+    },
+    {
+      "id": "etsy-2027-digital-planner",
+      "title": "2027 Digital Planner for GoodNotes - Minimalist Neutral",
+      "description": "Hyperlinked 2027 digital planner with yearly, monthly, weekly and daily pages, goal setting, budget tracker and 300+ stickers. Works with GoodNotes, Notability and other PDF annotation apps.",
+      "url": "https://www.etsy.com/listing/000000000/example-2027-digital-planner",
+      "platform": "etsy",
+      "image_url": "https://picsum.photos/seed/planner/1000/1000",
+      "created_at": "2026-10-28T08:00:00Z",
+      "tags": [
+        "digital planner",
+        "goodnotes planner",
+        "2027 planner",
+        "ipad planner"
+      ],
+      "price": "$7.99",
+      "stats": {
+        "views": 310,
+        "sales": 5
+      }
+    },
+    {
+      "id": "tpt-halloween-reading-passages",
+      "title": "Halloween Reading Comprehension Passages - 3rd Grade",
+      "description": "Five Halloween-themed reading passages with comprehension questions, vocabulary practice and answer keys for 3rd grade.",
+      "platform": "tpt",
+      "status": "pending",
+      "image_url": "",
+      "created_at": "2026-10-30T09:00:00Z",
+      "tags": [
+        "halloween reading",
+        "3rd grade reading comprehension",
+        "reading passages"
+      ]
+    }
+  ]
+}

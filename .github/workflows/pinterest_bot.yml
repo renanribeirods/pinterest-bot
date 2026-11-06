@@ -1,0 +1,108 @@
+name: Pinterest Bot
+
+on:
+  schedule:
+    # Horários em UTC, minutos "quebrados" para fugir da fila do GitHub no minuto :00
+    # e parecer mais orgânico. Picos do Pinterest: manhã/tarde no Reino Unido e noite nos EUA.
+    - cron: "17 12 * * *"   # 08:17 ET  | 12:17-13:17 UK  -> manhã EUA / almoço UK (TES)
+    - cron: "43 17 * * *"   # 13:43 ET  | 17:43-18:43 UK  -> pico noturno UK / tarde EUA
+    - cron: "11 1 * * *"    # 21:11 ET  | 18:11 PT        -> horário nobre EUA (maior pico)
+    - cron: "37 3 * * *"    # 23:37 ET  | 20:37 PT        -> noite costa oeste EUA
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Apenas gerar (não publicar)"
+        type: boolean
+        default: false
+      pins_count:
+        description: "Quantidade de Pins nesta execução"
+        type: string
+        default: ""
+
+permissions:
+  contents: write   # gravar data/history.json e enviar imagens para a branch pin-assets
+
+concurrency:
+  group: pinterest-bot
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache fonts
+        uses: actions/cache@v4
+        with:
+          path: templates/fonts
+          key: fonts-v1-${{ hashFiles('scripts/download_fonts.py') }}
+
+      - name: Download fonts
+        run: python scripts/download_fonts.py
+
+      - name: Run bot
+        env:
+          # --- Secrets ---
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # opcional: só com EMPTY_QUEUE_POLICY=api
+          PIN_WEBHOOK_URL: ${{ secrets.PIN_WEBHOOK_URL }}
+          PIN_WEBHOOK_SECRET: ${{ secrets.PIN_WEBHOOK_SECRET }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          PINTEREST_BOARD_MAP: ${{ secrets.PINTEREST_BOARD_MAP }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # --- Variables (Settings > Variables; todas opcionais) ---
+          PUBLISH_CHANNELS: ${{ vars.PUBLISH_CHANNELS || 'webhook,api' }}
+          IMAGE_HOST: ${{ vars.IMAGE_HOST || 'github' }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-opus-5-5' }}
+          EMPTY_QUEUE_POLICY: ${{ vars.EMPTY_QUEUE_POLICY || 'template' }}
+          PINS_PER_RUN: ${{ inputs.pins_count || vars.PINS_PER_RUN || '2' }}
+          JITTER_MAX_MINUTES: ${{ github.event_name == 'workflow_dispatch' && '0' || vars.JITTER_MAX_MINUTES || '10' }}
+          PRODUCT_FEED_URLS: ${{ vars.PRODUCT_FEED_URLS }}
+          DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+        run: python -m src.main
+
+      - name: Upload generated pins
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pins-${{ github.run_id }}
+          path: output/pins/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Persist state (history)
+        if: always() && inputs.dry_run != true
+        run: |
+          git config user.name "pinterest-bot"
+          git config user.email "pinterest-bot@users.noreply.github.com"
+          # copy_cache.json é escrito só pelo seu PC; o Actions grava apenas o próprio estado
+          git add data/history.json
+          if [ -f data/copy_cache_actions.json ]; then git add data/copy_cache_actions.json; fi
+          if git diff --cached --quiet; then
+            echo "Sem mudanças de estado."
+            exit 0
+          fi
+          git commit -m "chore(bot): update pin history [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push falhou (tentativa $i), tentando novamente..."
+            sleep $((i * 5))
+          done
+          echo "::error::Não foi possível gravar o histórico."
+          exit 1
