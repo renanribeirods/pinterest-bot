@@ -193,6 +193,10 @@ class WebhookChannel:
                     pin_url = data.get("url") or (f"https://www.pinterest.com/pin/{pin_id}/" if pin_id else "")
                 except ValueError:
                     pass
+                if not pin_id:  # o cenário devolve o ID do Pin; sem ele, o Pinterest não confirmou a criação
+                    raise TransientError(
+                        f"O Make recebeu o Pin mas não confirmou a criação (resposta: {r.text[:80]!r}). "
+                        "Possíveis causas: créditos do Make esgotados, cenário com erro ou Pinterest recusou.")
                 return PublishResult(True, self.name, pin_id, pin_url)
             if r.status_code in (401, 403, 404, 410):
                 raise ChannelDisabled(f"Webhook recusou ({r.status_code}). Cenário desativado ou URL/segredo errados.")
