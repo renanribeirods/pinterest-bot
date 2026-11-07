@@ -48,6 +48,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611359867/",
       "title": "Newsletter Sponsorship Tracker: Sell Ad Slots and Get Paid Without the Chaos",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "86d52312e443",
+      "variant_id": "86d52312e443:c0:v1",
+      "published_at": "2026-11-07T21:13:26.201519+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611365933",
+      "pin_url": "https://www.pinterest.com/pin/982347737611365933/",
+      "title": "New Year Resolution Worksheets for 2027: Plan Your Goals Before the Holiday Rush",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/86d52312e443_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -235,10 +247,12 @@
       "failures": 0
     },
     "86d52312e443": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-07T21:13:26.201519+00:00",
       "failures": 0
     },
     "104fcc5544cd": {
