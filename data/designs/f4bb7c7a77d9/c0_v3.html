@@ -1,0 +1,75 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=block" rel="stylesheet">
+<style>
+html,body{margin:0;width:1000px;height:1500px;overflow:hidden}
+body{position:relative;background:#B9532A;font-family:'Bricolage Grotesque',sans-serif;color:#FBF5EC}
+.big{position:absolute;left:58px;top:60px;font-weight:800;font-size:440px;line-height:.8;color:#F6D9A8;letter-spacing:-10px}
+h1{position:absolute;left:362px;top:112px;width:570px;margin:0;font-weight:800;font-size:112px;line-height:.95;letter-spacing:-3px;color:#FBF5EC}
+.ed{position:absolute;left:366px;top:348px;width:560px;font:600 20px/1 'Bricolage Grotesque',sans-serif;letter-spacing:4px;text-transform:uppercase;color:#F6D9A8}
+.card{position:absolute;width:420px;height:350px;background:#FBF5EC;border-radius:24px;box-sizing:border-box;padding:28px 30px;box-shadow:0 16px 30px rgba(80,25,5,.25)}
+.num{font:800 18px/1 'Bricolage Grotesque',sans-serif;letter-spacing:3px;color:#B9532A}
+.ttl{font:800 32px/1.1 'Bricolage Grotesque',sans-serif;color:#2A211C;margin-top:10px;letter-spacing:-.5px}
+.ill{position:absolute;left:30px;right:30px;bottom:28px;height:186px;background:#fff;border:2px solid #EADCC8;border-radius:14px;box-sizing:border-box;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}
+.grid span{height:30px;border-radius:7px;background:#EFE6D8}
+.grid .g{background:#2F5D4A}.grid .o{background:#B9532A}
+.r{display:flex;align-items:center;gap:12px;height:48px}
+.r b{flex:1;height:9px;border-radius:5px;background:#EFE6D8}
+.av{width:26px;height:26px;border-radius:50%;background:#F6D9A8;flex:none}
+.pill{font:800 13px/1 'Bricolage Grotesque',sans-serif;letter-spacing:1.5px;padding:7px 10px;border-radius:20px;flex:none}
+.paid{background:#DCE8DF;color:#2F5D4A}.due{background:#F4D3C3;color:#B9532A}
+.cb{width:22px;height:22px;border-radius:5px;border:2.5px solid #2F5D4A;box-sizing:border-box;flex:none}
+.cb.on{background:#2F5D4A}
+.dt{width:58px;height:20px;border-radius:10px;background:#EFE6D8;flex:none}
+.n{width:28px;height:28px;border-radius:50%;background:#2F5D4A;color:#fff;font:800 15px/28px 'Bricolage Grotesque',sans-serif;text-align:center;flex:none}
+.sup{position:absolute;left:70px;top:1236px;width:860px;text-align:center;font:600 34px/1.25 'Bricolage Grotesque',sans-serif;color:#FBF5EC}
+.cta{position:absolute;left:0;right:0;top:1318px;text-align:center}
+.cta span{display:inline-block;background:#FBF5EC;color:#B9532A;font:800 28px/1 'Bricolage Grotesque',sans-serif;padding:25px 54px;border-radius:60px}
+.cap{position:absolute;left:0;right:0;top:1422px;text-align:center;font:600 19px/1 'Bricolage Grotesque',sans-serif;letter-spacing:4px;text-transform:uppercase;color:#F6D9A8}
+</style></head><body>
+<div class="big">4</div>
+<h1>Trackers<br>Inside</h1>
+<div class="ed">Holiday Rush Edition</div>
+
+<div class="card" style="left:70px;top:470px">
+  <div class="num">01</div><div class="ttl">Capacity Tracker</div>
+  <div class="ill"><div class="grid">
+    <span class="g"></span><span class="g"></span><span class="o"></span><span class="g"></span><span class="g"></span><span></span><span class="g"></span>
+    <span class="g"></span><span class="o"></span><span class="o"></span><span class="g"></span><span></span><span class="g"></span><span class="g"></span>
+    <span></span><span class="g"></span><span class="g"></span><span class="g"></span><span class="o"></span><span class="o"></span><span class="g"></span>
+    <span class="g"></span><span class="g"></span><span></span><span class="g"></span><span class="g"></span><span class="g"></span><span></span>
+  </div></div>
+</div>
+
+<div class="card" style="left:510px;top:470px">
+  <div class="num">02</div><div class="ttl">Deposit Log</div>
+  <div class="ill" style="padding-top:6px">
+    <div class="r"><span class="av"></span><b></b><span class="pill paid">PAID</span></div>
+    <div class="r"><span class="av" style="background:#DCE8DF"></span><b></b><span class="pill paid">PAID</span></div>
+    <div class="r"><span class="av" style="background:#F4D3C3"></span><b></b><span class="pill due">DUE</span></div>
+  </div>
+</div>
+
+<div class="card" style="left:70px;top:840px">
+  <div class="num">03</div><div class="ttl">Vaccine Tracker</div>
+  <div class="ill" style="padding-top:6px">
+    <div class="r"><span class="cb on"></span><b></b><span class="dt"></span></div>
+    <div class="r"><span class="cb on"></span><b></b><span class="dt"></span></div>
+    <div class="r"><span class="cb" style="border-color:#B9532A"></span><b></b><span class="dt" style="background:#F4D3C3"></span></div>
+  </div>
+</div>
+
+<div class="card" style="left:510px;top:840px">
+  <div class="num">04</div><div class="ttl">Waitlist</div>
+  <div class="ill" style="padding-top:6px">
+    <div class="r"><span class="n">1</span><b></b></div>
+    <div class="r"><span class="n">2</span><b style="flex:.8"></b><span style="flex:.2"></span></div>
+    <div class="r"><span class="n">3</span><b style="flex:.6"></b><span style="flex:.4"></span></div>
+  </div>
+</div>
+
+<div class="sup">Everything you need for holiday dog bookings</div>
+<div class="cta"><span>Instant Download</span></div>
+<div class="cap">Printable Binder</div>
+</body></html>
