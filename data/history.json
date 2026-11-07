@@ -24,6 +24,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611345783/",
       "title": "PSHE Money Lesson Ideas for KS4: Scams, Buy Now Pay Later and More",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/4cd6b8809772_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "8271341ae7b8",
+      "variant_id": "8271341ae7b8:c0:v1",
+      "published_at": "2026-11-07T10:41:29.658088+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611349059",
+      "pin_url": "https://www.pinterest.com/pin/982347737611349059/",
+      "title": "Last Minute Sub Plans for High School English: Resume and Email Lessons That Keep Students Busy",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/8271341ae7b8_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -137,10 +149,12 @@
       "failures": 0
     },
     "8271341ae7b8": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-07T10:41:29.658088+00:00",
       "failures": 0
     },
     "1505fa265b7b": {
