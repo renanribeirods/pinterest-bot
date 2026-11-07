@@ -12,14 +12,28 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611336377/",
       "title": "A-Level Chemistry Practical Skills Revision: Save Hours Planning Sixth Form Revision Lessons",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/644d19c064d3_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "4cd6b8809772",
+      "variant_id": "4cd6b8809772:c0:v1",
+      "published_at": "2026-11-07T07:14:51.118849+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611345783",
+      "pin_url": "https://www.pinterest.com/pin/982347737611345783/",
+      "title": "PSHE Money Lesson Ideas for KS4: Scams, Buy Now Pay Later and More",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/4cd6b8809772_c0_v1_ai.jpg"
     }
   ],
   "products": {
     "4cd6b8809772": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-07T07:14:51.118849+00:00",
       "failures": 0
     },
     "3728f9c72aaf": {
