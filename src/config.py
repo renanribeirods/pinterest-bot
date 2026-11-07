@@ -142,7 +142,7 @@ class Settings:
     # Volume e ritmo
     pins_per_run: int = field(default_factory=lambda: _env_int("PINS_PER_RUN", 2))
     variants_min: int = field(default_factory=lambda: _env_int("VARIANTS_MIN", 3))
-    variants_max: int = field(default_factory=lambda: _env_int("VARIANTS_MAX", 5))
+    variants_max: int = field(default_factory=lambda: _env_int("VARIANTS_MAX", 3))  # 3 variações: economiza o limite do Claude Pro
     jitter_max_minutes: int = field(default_factory=lambda: _env_int("JITTER_MAX_MINUTES", 10))
     delay_between_pins: tuple[int, int] = field(
         default_factory=lambda: (_env_int("DELAY_MIN_SECONDS", 45), _env_int("DELAY_MAX_SECONDS", 150))
@@ -158,9 +158,9 @@ class Settings:
     # Copy: o PC gera a fila com Claude Code (sua assinatura); o Actions só consome
     empty_queue_policy: str = field(default_factory=lambda: _env("EMPTY_QUEUE_POLICY", "template").lower())
     claude_bin: str = field(default_factory=lambda: _env("CLAUDE_BIN"))
-    local_claude_model: str = field(default_factory=lambda: _env("LOCAL_CLAUDE_MODEL", "opus"))
+    local_claude_model: str = field(default_factory=lambda: _env("LOCAL_CLAUDE_MODEL", "sonnet"))  # Sonnet: bem mais leve no limite que o Opus
     refill_min_days: float = field(default_factory=lambda: _env_float("REFILL_MIN_DAYS", 5))
-    refill_max_products: int = field(default_factory=lambda: _env_int("REFILL_MAX_PRODUCTS", 15))
+    refill_max_products: int = field(default_factory=lambda: _env_int("REFILL_MAX_PRODUCTS", 5))  # no máximo 5 produtos por refill
     runs_per_day: int = field(default_factory=lambda: _env_int("RUNS_PER_DAY", 4))
     ai_designs: bool = field(default_factory=lambda: _env_bool("AI_DESIGNS", True))  # artes criadas pelo Claude
 
