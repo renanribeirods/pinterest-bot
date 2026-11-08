@@ -84,6 +84,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611381004/",
       "title": "No Prep History Lessons for Middle School That Get Students Thinking Like Detectives",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/dcc743e2da26_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "55262f45cfd4",
+      "variant_id": "55262f45cfd4:c0:v2",
+      "published_at": "2026-11-08T18:04:14.315993+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611392762",
+      "pin_url": "https://www.pinterest.com/pin/982347737611392762/",
+      "title": "Financial Literacy Sub Plans High School: No Prep Personal Finance Emergency Lesson",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -226,10 +238,12 @@
       "failures": 0
     },
     "55262f45cfd4": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        2
+      ],
+      "last_posted": "2026-11-08T18:04:14.315993+00:00",
       "failures": 0
     },
     "a1502317dc33": {
