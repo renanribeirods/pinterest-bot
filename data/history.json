@@ -96,6 +96,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611392762/",
       "title": "Financial Literacy Sub Plans High School: No Prep Personal Finance Emergency Lesson",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "a1502317dc33",
+      "variant_id": "a1502317dc33:c0:v0",
+      "published_at": "2026-11-08T21:22:32.536040+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611398404",
+      "pin_url": "https://www.pinterest.com/pin/982347737611398404/",
+      "title": "Personal Finance Sub Plans: No Prep Scams and Fraud Lesson for High School",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -247,10 +259,12 @@
       "failures": 0
     },
     "a1502317dc33": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-08T21:22:32.536040+00:00",
       "failures": 0
     },
     "f4bb7c7a77d9": {
