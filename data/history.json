@@ -72,6 +72,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611377788/",
       "title": "Personal Finance Sub Plans for Thanksgiving Week: 5 No Prep Paycheck and Tax Lessons",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/837d8185a75b_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "dcc743e2da26",
+      "variant_id": "dcc743e2da26:c0:v1",
+      "published_at": "2026-11-08T10:43:01.915120+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611381004",
+      "pin_url": "https://www.pinterest.com/pin/982347737611381004/",
+      "title": "No Prep History Lessons for Middle School That Get Students Thinking Like Detectives",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/dcc743e2da26_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -173,10 +185,12 @@
       "failures": 0
     },
     "dcc743e2da26": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-08T10:43:01.915120+00:00",
       "failures": 0
     },
     "837d8185a75b": {
