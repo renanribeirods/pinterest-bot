@@ -60,6 +60,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611365933/",
       "title": "New Year Resolution Worksheets for 2027: Plan Your Goals Before the Holiday Rush",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/86d52312e443_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "837d8185a75b",
+      "variant_id": "837d8185a75b:c0:v0",
+      "published_at": "2026-11-08T07:22:34.025830+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611377788",
+      "pin_url": "https://www.pinterest.com/pin/982347737611377788/",
+      "title": "Personal Finance Sub Plans for Thanksgiving Week: 5 No Prep Paycheck and Tax Lessons",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/837d8185a75b_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -168,10 +180,12 @@
       "failures": 0
     },
     "837d8185a75b": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-08T07:22:34.025830+00:00",
       "failures": 0
     },
     "8271341ae7b8": {
