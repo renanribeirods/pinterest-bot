@@ -132,6 +132,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611414882/",
       "title": "Personal Finance Sub Plans for November: 5 No Prep Investing Lessons for High School",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/1505fa265b7b_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "373a87724945",
+      "variant_id": "373a87724945:c0:v2",
+      "published_at": "2026-11-09T22:18:37.808475+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611428370",
+      "pin_url": "https://www.pinterest.com/pin/982347737611428370/",
+      "title": "Thanksgiving Sub Plans for High School Personal Finance: No Prep Rent, Car Loan and Insurance",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/373a87724945_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -219,10 +231,12 @@
       "failures": 0
     },
     "373a87724945": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        2
+      ],
+      "last_posted": "2026-11-09T22:18:37.808475+00:00",
       "failures": 0
     },
     "b6f508b6d772": {
