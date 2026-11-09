@@ -108,6 +108,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611398404/",
       "title": "Personal Finance Sub Plans: No Prep Scams and Fraud Lesson for High School",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "ce4b1f06c1f2",
+      "variant_id": "ce4b1f06c1f2:c0:v2",
+      "published_at": "2026-11-09T08:00:46.866800+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611411031",
+      "pin_url": "https://www.pinterest.com/pin/982347737611411031/",
+      "title": "Freelancer Tax Organizer: What's Inside the 6 Printable Pages for Income, Expenses & Miles",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/ce4b1f06c1f2_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -319,10 +331,12 @@
       "failures": 0
     },
     "ce4b1f06c1f2": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        2
+      ],
+      "last_posted": "2026-11-09T08:00:46.866800+00:00",
       "failures": 0
     }
   }
