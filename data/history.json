@@ -156,6 +156,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611431711/",
       "title": "Teacher Binder Printables: Incident Log, Parent Contact Log and Admin Referral Tracker",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/485e4c17f667_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "05c0cef78b37",
+      "variant_id": "05c0cef78b37:c0:v0",
+      "published_at": "2026-11-10T08:30:43.811312+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611439246",
+      "pin_url": "https://www.pinterest.com/pin/982347737611439246/",
+      "title": "Independent Work Ideas for Middle School: Lessons That Teach Students to Work Without You",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/05c0cef78b37_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -229,10 +241,12 @@
       "failures": 0
     },
     "05c0cef78b37": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-10T08:30:43.811312+00:00",
       "failures": 0
     },
     "9be3c322af11": {
