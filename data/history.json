@@ -168,6 +168,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611439246/",
       "title": "Independent Work Ideas for Middle School: Lessons That Teach Students to Work Without You",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/05c0cef78b37_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "723f7b09a101",
+      "variant_id": "723f7b09a101:c0:v2",
+      "published_at": "2026-11-10T11:40:59.307319+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611441663",
+      "pin_url": "https://www.pinterest.com/pin/982347737611441663/",
+      "title": "Holiday Prescription Refill Planner: ADHD Medication Tracker for Thanksgiving Season",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/723f7b09a101_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -357,10 +369,12 @@
       "failures": 0
     },
     "723f7b09a101": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        2
+      ],
+      "last_posted": "2026-11-10T11:40:59.307319+00:00",
       "failures": 0
     },
     "041058a7bbec": {
