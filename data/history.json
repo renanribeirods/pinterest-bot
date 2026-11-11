@@ -216,6 +216,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611465774/",
       "title": "Scams and Fraud Lesson for High School Personal Finance: No Prep Sub Plans",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "f87134e30bd5",
+      "variant_id": "f87134e30bd5:c0:v0",
+      "published_at": "2026-11-11T11:26:36.529912+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611469073",
+      "pin_url": "https://www.pinterest.com/pin/982347737611469073/",
+      "title": "AQA GCSE Macbeth Revision Lessons for Year 11 Mocks This Autumn Term",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f87134e30bd5_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -277,10 +289,12 @@
       "failures": 0
     },
     "f87134e30bd5": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-11T11:26:36.529912+00:00",
       "failures": 0
     },
     "556e59cf52f9": {
