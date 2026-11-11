@@ -240,6 +240,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611481900/",
       "title": "ADHD Medication Refill Tracker Printable to Stay Ahead of Every Refill Date",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/723f7b09a101_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "ce4b1f06c1f2",
+      "variant_id": "ce4b1f06c1f2:c0:v0",
+      "published_at": "2026-11-11T23:49:00.239758+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611487583",
+      "pin_url": "https://www.pinterest.com/pin/982347737611487583/",
+      "title": "Tax Organizer Printable for Year-End Prep: Get Freelance Records Ready Before Tax Season",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/ce4b1f06c1f2_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -468,12 +480,13 @@
       "failures": 0
     },
     "ce4b1f06c1f2": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        2
+        2,
+        0
       ],
-      "last_posted": "2026-11-09T08:00:46.866800+00:00",
+      "last_posted": "2026-11-11T23:49:00.239758+00:00",
       "failures": 0
     },
     "704870e3369d": {
