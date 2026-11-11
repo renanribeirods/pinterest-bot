@@ -204,6 +204,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611455578/",
       "title": "Teacher Documentation Log Printable for When a Parent Disputes What Was Said",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/485e4c17f667_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "a1502317dc33",
+      "variant_id": "a1502317dc33:c0:v2",
+      "published_at": "2026-11-11T07:49:59.804972+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611465774",
+      "pin_url": "https://www.pinterest.com/pin/982347737611465774/",
+      "title": "Scams and Fraud Lesson for High School Personal Finance: No Prep Sub Plans",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -363,12 +375,13 @@
       "failures": 0
     },
     "a1502317dc33": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-08T21:22:32.536040+00:00",
+      "last_posted": "2026-11-11T07:49:59.804972+00:00",
       "failures": 0
     },
     "f4bb7c7a77d9": {
