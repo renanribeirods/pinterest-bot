@@ -228,6 +228,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611469073/",
       "title": "AQA GCSE Macbeth Revision Lessons for Year 11 Mocks This Autumn Term",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f87134e30bd5_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "723f7b09a101",
+      "variant_id": "723f7b09a101:c0:v0",
+      "published_at": "2026-11-11T19:42:57.304488+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611481900",
+      "pin_url": "https://www.pinterest.com/pin/982347737611481900/",
+      "title": "ADHD Medication Refill Tracker Printable to Stay Ahead of Every Refill Date",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/723f7b09a101_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -423,12 +435,13 @@
       "failures": 0
     },
     "723f7b09a101": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        2
+        2,
+        0
       ],
-      "last_posted": "2026-11-10T11:40:59.307319+00:00",
+      "last_posted": "2026-11-11T19:42:57.304488+00:00",
       "failures": 0
     },
     "041058a7bbec": {
