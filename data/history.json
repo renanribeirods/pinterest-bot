@@ -276,6 +276,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611499606/",
       "title": "Investing Lessons for High School: 5 No Prep Personal Finance Sub Plans to Save You Time",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/1505fa265b7b_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "b6f508b6d772",
+      "variant_id": "b6f508b6d772:c0:v0",
+      "published_at": "2026-11-12T19:54:00.188035+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611510855",
+      "pin_url": "https://www.pinterest.com/pin/982347737611510855/",
+      "title": "Email Etiquette Lessons for Middle School: 5 No-Prep Lessons to Teach Professional Emails",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/b6f508b6d772_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -378,10 +390,12 @@
       "failures": 0
     },
     "b6f508b6d772": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-12T19:54:00.188035+00:00",
       "failures": 0
     },
     "dcc743e2da26": {
@@ -524,6 +538,20 @@
       "failures": 0
     },
     "6d474ef5aac1": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "c94bbda773fa": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "274c4c59e009": {
       "posts": 0,
       "cycle": 0,
       "variants_used": [],
