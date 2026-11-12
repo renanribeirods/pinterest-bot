@@ -252,6 +252,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611487583/",
       "title": "Tax Organizer Printable for Year-End Prep: Get Freelance Records Ready Before Tax Season",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/ce4b1f06c1f2_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "6adb920230bd",
+      "variant_id": "6adb920230bd:c0:v0",
+      "published_at": "2026-11-12T08:21:22.997830+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611496306",
+      "pin_url": "https://www.pinterest.com/pin/982347737611496306/",
+      "title": "DIY Wedding Planner Printable for Brides Without a Day-Of Coordinator",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/6adb920230bd_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -440,10 +452,12 @@
       "failures": 0
     },
     "6adb920230bd": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-12T08:21:22.997830+00:00",
       "failures": 0
     },
     "723f7b09a101": {
