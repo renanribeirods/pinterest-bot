@@ -403,6 +403,34 @@
       "url": "https://www.teacherspayteachers.com/Product/Personal-Finance-Sub-Plans-Credit-Debt-5-No-Prep-Lessons-9-12-Vol-7-18264591",
       "status": "active",
       "linked_at": "2026-11-10"
+    },
+    {
+      "id": "c94bbda773fa",
+      "title": "Debt Payoff Tracker Printable 5 Page",
+      "description": "",
+      "platform": "etsy",
+      "image_url": "",
+      "tags": [],
+      "created_at": "2026-11-12T00:00:00Z",
+      "link_source": "notes",
+      "title_from_url": true,
+      "url": "https://www.etsy.com/listing/4615605768",
+      "status": "active",
+      "linked_at": "2026-11-12"
+    },
+    {
+      "id": "274c4c59e009",
+      "title": "Family Packing List Printable 4 Page",
+      "description": "",
+      "platform": "etsy",
+      "image_url": "",
+      "tags": [],
+      "created_at": "2026-11-12T00:00:00Z",
+      "link_source": "notes",
+      "title_from_url": true,
+      "url": "https://www.etsy.com/listing/4615607830",
+      "status": "active",
+      "linked_at": "2026-11-12"
     }
   ]
 }
