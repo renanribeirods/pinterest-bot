@@ -336,6 +336,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611538792/",
       "title": "English Sub Plans High School: 5 No Prep Resume and Email Writing Lessons for Grades 9-12",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/8271341ae7b8_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "ce4b1f06c1f2",
+      "variant_id": "ce4b1f06c1f2:c0:v1",
+      "published_at": "2026-11-13T22:56:03.370859+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611543033",
+      "pin_url": "https://www.pinterest.com/pin/982347737611543033/",
+      "title": "Self Employed Tax Organizer: Stop Digging Through Receipts at Tax Time",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/ce4b1f06c1f2_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -574,13 +586,14 @@
       "failures": 0
     },
     "ce4b1f06c1f2": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         2,
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-11T23:49:00.239758+00:00",
+      "last_posted": "2026-11-13T22:56:03.370859+00:00",
       "failures": 0
     },
     "704870e3369d": {
