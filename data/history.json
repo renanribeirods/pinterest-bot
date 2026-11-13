@@ -300,6 +300,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611515616/",
       "title": "Emergency Sub Plans for High School Personal Finance: Scams and Fraud, Print and Go",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "f87134e30bd5",
+      "variant_id": "f87134e30bd5:c0:v1",
+      "published_at": "2026-11-13T08:02:21.393896+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611524523",
+      "pin_url": "https://www.pinterest.com/pin/982347737611524523/",
+      "title": "Macbeth Mock Essay Lessons: Save Planning Time on AQA GCSE Revision",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f87134e30bd5_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -361,12 +373,13 @@
       "failures": 0
     },
     "f87134e30bd5": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-11T11:26:36.529912+00:00",
+      "last_posted": "2026-11-13T08:02:21.393896+00:00",
       "failures": 0
     },
     "556e59cf52f9": {
