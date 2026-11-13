@@ -324,6 +324,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611528000/",
       "title": "Budgeting Worksheet for High School: 4 Ways to Use This Personal Finance Activity",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/556e59cf52f9_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "8271341ae7b8",
+      "variant_id": "8271341ae7b8:c0:v0",
+      "published_at": "2026-11-13T19:44:18.212081+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611538792",
+      "pin_url": "https://www.pinterest.com/pin/982347737611538792/",
+      "title": "English Sub Plans High School: 5 No Prep Resume and Email Writing Lessons for Grades 9-12",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/8271341ae7b8_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -456,12 +468,13 @@
       "failures": 0
     },
     "8271341ae7b8": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        0
       ],
-      "last_posted": "2026-11-07T10:41:29.658088+00:00",
+      "last_posted": "2026-11-13T19:44:18.212081+00:00",
       "failures": 0
     },
     "1505fa265b7b": {
@@ -592,6 +605,27 @@
       "failures": 0
     },
     "274c4c59e009": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "10ad8a6b7ee1": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "2d1b9d42c1c4": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "9f242f3585f5": {
       "posts": 0,
       "cycle": 0,
       "variants_used": [],
