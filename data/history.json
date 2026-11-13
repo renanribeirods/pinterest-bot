@@ -312,6 +312,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611524523/",
       "title": "Macbeth Mock Essay Lessons: Save Planning Time on AQA GCSE Revision",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f87134e30bd5_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "556e59cf52f9",
+      "variant_id": "556e59cf52f9:c0:v0",
+      "published_at": "2026-11-13T11:34:36.892217+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611528000",
+      "pin_url": "https://www.pinterest.com/pin/982347737611528000/",
+      "title": "Budgeting Worksheet for High School: 4 Ways to Use This Personal Finance Activity",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/556e59cf52f9_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -383,10 +395,12 @@
       "failures": 0
     },
     "556e59cf52f9": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-13T11:34:36.892217+00:00",
       "failures": 0
     },
     "05c0cef78b37": {
