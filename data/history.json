@@ -360,6 +360,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611553545/",
       "title": "Thanksgiving Travel Packing List Printable for Families | 4 Page Holiday Checklist",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/274c4c59e009_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "e1235cdf04db",
+      "variant_id": "e1235cdf04db:c0:v1",
+      "published_at": "2026-11-14T10:57:41.460079+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611556807",
+      "pin_url": "https://www.pinterest.com/pin/982347737611556807/",
+      "title": "A Level Chemistry Core Practicals Made Simple: Save Planning Time with This Edexcel Resource",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/e1235cdf04db_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -414,10 +426,12 @@
       "failures": 0
     },
     "e1235cdf04db": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-14T10:57:41.460079+00:00",
       "failures": 0
     },
     "f87134e30bd5": {
