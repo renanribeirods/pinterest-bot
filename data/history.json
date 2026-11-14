@@ -372,6 +372,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611556807/",
       "title": "A Level Chemistry Core Practicals Made Simple: Save Planning Time with This Edexcel Resource",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/e1235cdf04db_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "644d19c064d3",
+      "variant_id": "644d19c064d3:c0:v1",
+      "published_at": "2026-11-14T18:04:51.761877+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611566836",
+      "pin_url": "https://www.pinterest.com/pin/982347737611566836/",
+      "title": "A-Level Chemistry Practical Revision Resource for KS5 Chemistry Teachers and Sixth Form",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/644d19c064d3_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -392,12 +404,13 @@
       "failures": 0
     },
     "644d19c064d3": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-06T23:12:25.104812+00:00",
+      "last_posted": "2026-11-14T18:04:51.761877+00:00",
       "failures": 0
     },
     "50b20cfddc00": {
