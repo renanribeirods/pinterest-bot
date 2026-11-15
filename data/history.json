@@ -408,6 +408,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611584052/",
       "title": "Emergency Sub Plans for Personal Finance: Paying for College Without the Panic",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/9be3c322af11_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "2d1b9d42c1c4",
+      "variant_id": "2d1b9d42c1c4:c0:v1",
+      "published_at": "2026-11-15T11:35:39.678270+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611587933",
+      "pin_url": "https://www.pinterest.com/pin/982347737611587933/",
+      "title": "Year 11 English Mock Prep: A Christmas Carol AQA GCSE Revision for Autumn Term",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/2d1b9d42c1c4_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -701,10 +713,12 @@
       "failures": 0
     },
     "2d1b9d42c1c4": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-15T11:35:39.678270+00:00",
       "failures": 0
     },
     "9f242f3585f5": {
