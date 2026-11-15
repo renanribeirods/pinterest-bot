@@ -432,6 +432,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611598870/",
       "title": "Freelance Tax Records Everywhere? Printable Tax Organizer With Mileage Log",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/ce4b1f06c1f2_c1_v2_ai.jpg"
+    },
+    {
+      "product_id": "fe87e9bcd701",
+      "variant_id": "fe87e9bcd701:c0:v2",
+      "published_at": "2026-11-15T22:04:43.789034+00:00",
+      "platform": "notion",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611603890",
+      "pin_url": "https://www.pinterest.com/pin/982347737611603890/",
+      "title": "Newsletter Monetization Ideas: 4 Ways a Sponsorship CRM Keeps Your Ad Slots Full",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -471,12 +483,13 @@
       "failures": 0
     },
     "fe87e9bcd701": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-07T17:54:20.144201+00:00",
+      "last_posted": "2026-11-15T22:04:43.789034+00:00",
       "failures": 0
     },
     "a1a7c1167580": {
