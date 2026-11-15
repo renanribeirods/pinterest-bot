@@ -396,6 +396,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611572580/",
       "title": "English Sub Plans High School: No Prep Creative Writing Lessons for Grades 9-12 Vol 3",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/704870e3369d_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "9be3c322af11",
+      "variant_id": "9be3c322af11:c0:v2",
+      "published_at": "2026-11-15T07:51:52.421611+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611584052",
+      "pin_url": "https://www.pinterest.com/pin/982347737611584052/",
+      "title": "Emergency Sub Plans for Personal Finance: Paying for College Without the Panic",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/9be3c322af11_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -488,10 +500,12 @@
       "failures": 0
     },
     "9be3c322af11": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        2
+      ],
+      "last_posted": "2026-11-15T07:51:52.421611+00:00",
       "failures": 0
     },
     "373a87724945": {
