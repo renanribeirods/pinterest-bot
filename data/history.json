@@ -420,6 +420,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611587933/",
       "title": "Year 11 English Mock Prep: A Christmas Carol AQA GCSE Revision for Autumn Term",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/2d1b9d42c1c4_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "ce4b1f06c1f2",
+      "variant_id": "ce4b1f06c1f2:c1:v2",
+      "published_at": "2026-11-15T18:56:42.297106+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611598870",
+      "pin_url": "https://www.pinterest.com/pin/982347737611598870/",
+      "title": "Freelance Tax Records Everywhere? Printable Tax Organizer With Mileage Log",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/ce4b1f06c1f2_c1_v2_ai.jpg"
     }
   ],
   "products": {
@@ -663,14 +675,12 @@
       "failures": 0
     },
     "ce4b1f06c1f2": {
-      "posts": 3,
-      "cycle": 0,
+      "posts": 4,
+      "cycle": 1,
       "variants_used": [
-        2,
-        0,
-        1
+        2
       ],
-      "last_posted": "2026-11-13T22:56:03.370859+00:00",
+      "last_posted": "2026-11-15T18:56:42.297106+00:00",
       "failures": 0
     },
     "704870e3369d": {
