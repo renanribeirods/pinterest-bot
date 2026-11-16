@@ -468,6 +468,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611618938/",
       "title": "Christmas Gift List Printable | Holiday Gift Planner With Budget by Person and Delivery Tracker",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/041058a7bbec_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "55262f45cfd4",
+      "variant_id": "55262f45cfd4:c0:v0",
+      "published_at": "2026-11-16T22:07:24.860476+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611633674",
+      "pin_url": "https://www.pinterest.com/pin/982347737611633674/",
+      "title": "Personal Finance Sub Plan Ideas for High School: No Prep Financial Literacy Lessons",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -633,12 +645,13 @@
       "failures": 0
     },
     "55262f45cfd4": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        2
+        2,
+        0
       ],
-      "last_posted": "2026-11-08T18:04:14.315993+00:00",
+      "last_posted": "2026-11-16T22:07:24.860476+00:00",
       "failures": 0
     },
     "a1502317dc33": {
