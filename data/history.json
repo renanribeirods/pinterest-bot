@@ -444,6 +444,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611603890/",
       "title": "Newsletter Monetization Ideas: 4 Ways a Sponsorship CRM Keeps Your Ad Slots Full",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "104fcc5544cd",
+      "variant_id": "104fcc5544cd:c0:v1",
+      "published_at": "2026-11-16T08:03:28.655938+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611615206",
+      "pin_url": "https://www.pinterest.com/pin/982347737611615206/",
+      "title": "Christmas Menu Planner Printable: Holiday Dinner Planner, Grocery List & Cooking Schedule",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/104fcc5544cd_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -681,10 +693,12 @@
       "failures": 0
     },
     "104fcc5544cd": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-16T08:03:28.655938+00:00",
       "failures": 0
     },
     "ce4b1f06c1f2": {
