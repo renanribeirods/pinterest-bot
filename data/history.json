@@ -456,6 +456,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611615206/",
       "title": "Christmas Menu Planner Printable: Holiday Dinner Planner, Grocery List & Cooking Schedule",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/104fcc5544cd_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "041058a7bbec",
+      "variant_id": "041058a7bbec:c0:v0",
+      "published_at": "2026-11-16T12:00:17.171281+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611618938",
+      "pin_url": "https://www.pinterest.com/pin/982347737611618938/",
+      "title": "Christmas Gift List Printable | Holiday Gift Planner With Budget by Person and Delivery Tracker",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/041058a7bbec_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -677,10 +689,12 @@
       "failures": 0
     },
     "041058a7bbec": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-16T12:00:17.171281+00:00",
       "failures": 0
     },
     "86d52312e443": {
