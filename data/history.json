@@ -516,6 +516,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611647862/",
       "title": "High School English Sub Plans No Prep: Resume Writing and Professional Email Lessons 9-12",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/8271341ae7b8_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "34f28e63d23d",
+      "variant_id": "34f28e63d23d:c0:v0",
+      "published_at": "2026-11-17T20:58:41.655894+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611659185",
+      "pin_url": "https://www.pinterest.com/pin/982347737611659185/",
+      "title": "English Sub Plans for High School: No Prep AI and Fake News Lessons for Thanksgiving Week",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/34f28e63d23d_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -676,10 +688,12 @@
       "failures": 0
     },
     "34f28e63d23d": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-17T20:58:41.655894+00:00",
       "failures": 0
     },
     "55262f45cfd4": {
@@ -825,6 +839,13 @@
       "failures": 0
     },
     "9f242f3585f5": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "24c4b5a77fd6": {
       "posts": 0,
       "cycle": 0,
       "variants_used": [],
