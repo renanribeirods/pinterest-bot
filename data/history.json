@@ -492,6 +492,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611637035/",
       "title": "KS4 PSHE Cover Lessons on Scams and BNPL for Stress-Free Cover Days",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/4cd6b8809772_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "6adb920230bd",
+      "variant_id": "6adb920230bd:c0:v2",
+      "published_at": "2026-11-17T09:13:24.009244+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611645191",
+      "pin_url": "https://www.pinterest.com/pin/982347737611645191/",
+      "title": "Wedding Coordinator Binder Ideas: What to Include for a DIY Wedding Week",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/6adb920230bd_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -696,12 +708,13 @@
       "failures": 0
     },
     "6adb920230bd": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-12T08:21:22.997830+00:00",
+      "last_posted": "2026-11-17T09:13:24.009244+00:00",
       "failures": 0
     },
     "723f7b09a101": {
