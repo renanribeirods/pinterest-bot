@@ -480,16 +480,29 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611633674/",
       "title": "Personal Finance Sub Plan Ideas for High School: No Prep Financial Literacy Lessons",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "4cd6b8809772",
+      "variant_id": "4cd6b8809772:c0:v0",
+      "published_at": "2026-11-17T01:09:23.039125+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611637035",
+      "pin_url": "https://www.pinterest.com/pin/982347737611637035/",
+      "title": "KS4 PSHE Cover Lessons on Scams and BNPL for Stress-Free Cover Days",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/4cd6b8809772_c0_v0_ai.jpg"
     }
   ],
   "products": {
     "4cd6b8809772": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        0
       ],
-      "last_posted": "2026-11-07T07:14:51.118849+00:00",
+      "last_posted": "2026-11-17T01:09:23.039125+00:00",
       "failures": 0
     },
     "3728f9c72aaf": {
