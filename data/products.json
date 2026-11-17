@@ -485,6 +485,19 @@
       "created_at": "2026-11-13T00:00:00Z",
       "tags": [],
       "link_source": "store_import"
+    },
+    {
+      "id": "24c4b5a77fd6",
+      "title": "Wedding Photographer CRM | Delivery + Payments",
+      "description": "Managing weddings in a free CRM means tracking stops at booking, while gallery deadlines and retainers sit in email. This Notion system gives wedding photographers one workspace from inquiry to album proof, with delivery deadlines, payments, and second shooters.",
+      "url": "https://www.notion.com/templates/wedding-photographer-crm-delivery-payments",
+      "platform": "notion",
+      "image_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/template/3080e130-9de5-44f9-a24f-5fba855fe025/1794317118711/desktop.jpg",
+      "price": "$29",
+      "status": "active",
+      "created_at": "2026-11-17T00:00:00Z",
+      "tags": [],
+      "link_source": "store_import"
     }
   ]
 }
