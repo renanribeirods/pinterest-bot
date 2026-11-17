@@ -504,6 +504,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611645191/",
       "title": "Wedding Coordinator Binder Ideas: What to Include for a DIY Wedding Week",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/6adb920230bd_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "8271341ae7b8",
+      "variant_id": "8271341ae7b8:c0:v2",
+      "published_at": "2026-11-17T12:26:43.144416+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611647862",
+      "pin_url": "https://www.pinterest.com/pin/982347737611647862/",
+      "title": "High School English Sub Plans No Prep: Resume Writing and Professional Email Lessons 9-12",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/8271341ae7b8_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -643,13 +655,14 @@
       "failures": 0
     },
     "8271341ae7b8": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         1,
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-13T19:44:18.212081+00:00",
+      "last_posted": "2026-11-17T12:26:43.144416+00:00",
       "failures": 0
     },
     "1505fa265b7b": {
