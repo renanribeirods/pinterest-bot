@@ -564,6 +564,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611676859/",
       "title": "Personal Finance Sub Plans for High School: Rent, Car Loans and Insurance No Prep Lessons",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/373a87724945_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "f87134e30bd5",
+      "variant_id": "f87134e30bd5:c0:v2",
+      "published_at": "2026-11-18T20:32:48.571209+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611688522",
+      "pin_url": "https://www.pinterest.com/pin/982347737611688522/",
+      "title": "GCSE Macbeth Revision Ideas: Mock Essay Lessons for AQA English Literature",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f87134e30bd5_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -631,13 +643,14 @@
       "failures": 0
     },
     "f87134e30bd5": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         0,
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-13T08:02:21.393896+00:00",
+      "last_posted": "2026-11-18T20:32:48.571209+00:00",
       "failures": 0
     },
     "556e59cf52f9": {
