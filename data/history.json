@@ -552,6 +552,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611672995/",
       "title": "A Level Chemistry Practical Skills Made Simple: OCR Pack That Saves Hours of Planning",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/50b20cfddc00_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "373a87724945",
+      "variant_id": "373a87724945:c0:v0",
+      "published_at": "2026-11-18T12:12:22.281629+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611676859",
+      "pin_url": "https://www.pinterest.com/pin/982347737611676859/",
+      "title": "Personal Finance Sub Plans for High School: Rent, Car Loans and Insurance No Prep Lessons",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/373a87724945_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -657,12 +669,13 @@
       "failures": 0
     },
     "373a87724945": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        2
+        2,
+        0
       ],
-      "last_posted": "2026-11-09T22:18:37.808475+00:00",
+      "last_posted": "2026-11-18T12:12:22.281629+00:00",
       "failures": 0
     },
     "b6f508b6d772": {
