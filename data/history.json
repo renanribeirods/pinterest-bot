@@ -540,6 +540,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611663556/",
       "title": "Student Loans Lesson for High School: Personal Finance Sub Plans That Work Without You",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/9be3c322af11_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "50b20cfddc00",
+      "variant_id": "50b20cfddc00:c0:v1",
+      "published_at": "2026-11-18T08:38:54.757426+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611672995",
+      "pin_url": "https://www.pinterest.com/pin/982347737611672995/",
+      "title": "A Level Chemistry Practical Skills Made Simple: OCR Pack That Saves Hours of Planning",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/50b20cfddc00_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -571,12 +583,13 @@
       "failures": 0
     },
     "50b20cfddc00": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-10T19:50:54.451416+00:00",
+      "last_posted": "2026-11-18T08:38:54.757426+00:00",
       "failures": 0
     },
     "fe87e9bcd701": {
