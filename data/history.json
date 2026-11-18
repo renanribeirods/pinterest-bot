@@ -576,6 +576,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611688522/",
       "title": "GCSE Macbeth Revision Ideas: Mock Essay Lessons for AQA English Literature",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f87134e30bd5_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "24c4b5a77fd6",
+      "variant_id": "24c4b5a77fd6:c0:v0",
+      "published_at": "2026-11-18T23:38:08.356071+00:00",
+      "platform": "notion",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611692491",
+      "pin_url": "https://www.pinterest.com/pin/982347737611692491/",
+      "title": "Wedding Photographer CRM Notion Template for Client Delivery and Payments",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/24c4b5a77fd6_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -898,10 +910,12 @@
       "failures": 0
     },
     "24c4b5a77fd6": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-18T23:38:08.356071+00:00",
       "failures": 0
     },
     "435b340d34e8": {
