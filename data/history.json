@@ -600,6 +600,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611701486/",
       "title": "Christmas Dinner Cooking Timeline Printable So Every Dish Is Ready at the Same Time",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/104fcc5544cd_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "34f28e63d23d",
+      "variant_id": "34f28e63d23d:c0:v2",
+      "published_at": "2026-11-19T12:04:27.253418+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611704467",
+      "pin_url": "https://www.pinterest.com/pin/982347737611704467/",
+      "title": "No Prep English Sub Plans That Keep High Schoolers Thinking Critically About AI and Fake News",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/34f28e63d23d_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -764,12 +776,13 @@
       "failures": 0
     },
     "34f28e63d23d": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-17T20:58:41.655894+00:00",
+      "last_posted": "2026-11-19T12:04:27.253418+00:00",
       "failures": 0
     },
     "55262f45cfd4": {
