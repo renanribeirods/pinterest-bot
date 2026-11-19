@@ -624,6 +624,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611718337/",
       "title": "Christmas Gift Planning Ideas: 5 Printable Pages to Organize Every Gift, Budget and Delivery",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/041058a7bbec_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "723f7b09a101",
+      "variant_id": "723f7b09a101:c0:v1",
+      "published_at": "2026-11-19T23:52:36.109029+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611722828",
+      "pin_url": "https://www.pinterest.com/pin/982347737611722828/",
+      "title": "ADHD Medication Tracker Printable | Prescription Refill Log and Pharmacy Call Log PDF",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/723f7b09a101_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -846,13 +858,14 @@
       "failures": 0
     },
     "723f7b09a101": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         2,
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-11T19:42:57.304488+00:00",
+      "last_posted": "2026-11-19T23:52:36.109029+00:00",
       "failures": 0
     },
     "041058a7bbec": {
