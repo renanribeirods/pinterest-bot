@@ -612,6 +612,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611704467/",
       "title": "No Prep English Sub Plans That Keep High Schoolers Thinking Critically About AI and Fake News",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/34f28e63d23d_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "041058a7bbec",
+      "variant_id": "041058a7bbec:c0:v2",
+      "published_at": "2026-11-19T20:31:30.845646+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611718337",
+      "pin_url": "https://www.pinterest.com/pin/982347737611718337/",
+      "title": "Christmas Gift Planning Ideas: 5 Printable Pages to Organize Every Gift, Budget and Delivery",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/041058a7bbec_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -844,12 +856,13 @@
       "failures": 0
     },
     "041058a7bbec": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-16T12:00:17.171281+00:00",
+      "last_posted": "2026-11-19T20:31:30.845646+00:00",
       "failures": 0
     },
     "86d52312e443": {
