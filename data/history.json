@@ -588,6 +588,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611692491/",
       "title": "Wedding Photographer CRM Notion Template for Client Delivery and Payments",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/24c4b5a77fd6_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "104fcc5544cd",
+      "variant_id": "104fcc5544cd:c0:v2",
+      "published_at": "2026-11-19T08:55:46.219883+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611701486",
+      "pin_url": "https://www.pinterest.com/pin/982347737611701486/",
+      "title": "Christmas Dinner Cooking Timeline Printable So Every Dish Is Ready at the Same Time",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/104fcc5544cd_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -837,12 +849,13 @@
       "failures": 0
     },
     "104fcc5544cd": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-16T08:03:28.655938+00:00",
+      "last_posted": "2026-11-19T08:55:46.219883+00:00",
       "failures": 0
     },
     "ce4b1f06c1f2": {
