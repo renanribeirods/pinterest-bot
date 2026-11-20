@@ -636,6 +636,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611722828/",
       "title": "ADHD Medication Tracker Printable | Prescription Refill Log and Pharmacy Call Log PDF",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/723f7b09a101_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "55262f45cfd4",
+      "variant_id": "55262f45cfd4:c0:v1",
+      "published_at": "2026-11-20T08:31:29.216561+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611732052",
+      "pin_url": "https://www.pinterest.com/pin/982347737611732052/",
+      "title": "Emergency Sub Plans for Personal Finance: Get Ready Before Thanksgiving Break",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -810,13 +822,14 @@
       "failures": 0
     },
     "55262f45cfd4": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         2,
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-16T22:07:24.860476+00:00",
+      "last_posted": "2026-11-20T08:31:29.216561+00:00",
       "failures": 0
     },
     "a1502317dc33": {
