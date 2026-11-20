@@ -672,6 +672,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611748061/",
       "title": "GCSE Poetry Comparison AQA Power and Conflict: Save Planning Time and Build Pupil Confidence",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/795a4aa572e2_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "837d8185a75b",
+      "variant_id": "837d8185a75b:c0:v1",
+      "published_at": "2026-11-20T23:27:40.766182+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611752013",
+      "pin_url": "https://www.pinterest.com/pin/982347737611752013/",
+      "title": "Personal Finance Lessons for High School: 5 No Prep Sub Plans on Paychecks and Taxes",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/837d8185a75b_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -807,12 +819,13 @@
       "failures": 0
     },
     "837d8185a75b": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        1
       ],
-      "last_posted": "2026-11-08T07:22:34.025830+00:00",
+      "last_posted": "2026-11-20T23:27:40.766182+00:00",
       "failures": 0
     },
     "8271341ae7b8": {
