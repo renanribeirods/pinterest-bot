@@ -648,6 +648,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611732052/",
       "title": "Emergency Sub Plans for Personal Finance: Get Ready Before Thanksgiving Break",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "644d19c064d3",
+      "variant_id": "644d19c064d3:c0:v2",
+      "published_at": "2026-11-20T12:13:01.023742+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611736075",
+      "pin_url": "https://www.pinterest.com/pin/982347737611736075/",
+      "title": "A-Level Chemistry Practical Skills Revision for Pupils Who Lose Marks on Practical Questions",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/644d19c064d3_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -669,13 +681,14 @@
       "failures": 0
     },
     "644d19c064d3": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         0,
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-14T18:04:51.761877+00:00",
+      "last_posted": "2026-11-20T12:13:01.023742+00:00",
       "failures": 0
     },
     "50b20cfddc00": {
