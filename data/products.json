@@ -526,6 +526,46 @@
       "url": "https://www.teacherspayteachers.com/Product/English-Sub-Plans-High-School-Story-Analysis-5-No-Prep-Lessons-9-12-Vol-4-18396182",
       "status": "active",
       "linked_at": "2026-11-17"
+    },
+    {
+      "id": "10ad8a6b7ee1",
+      "title": "Teaching Resource",
+      "description": "",
+      "platform": "tes",
+      "image_url": "",
+      "tags": [],
+      "created_at": "2026-11-20T00:00:00Z",
+      "link_source": "notes",
+      "title_from_url": true,
+      "url": "https://www.tes.com/teaching-resource/resource-13674998",
+      "status": "active",
+      "linked_at": "2026-11-20"
+    },
+    {
+      "id": "795a4aa572e2",
+      "title": "AQA Power and Conflict poetry comparison GCSE",
+      "description": "",
+      "url": "https://www.tes.com/teaching-resource/aqa-power-and-conflict-poetry-comparison-gcse-13674998",
+      "platform": "tes",
+      "image_url": "https://d1e4pidl3fu268.cloudfront.net/96975537-a7ce-4030-be18-15cdc7cc931d/aqapowerandconflictpoetrycomparisonmockessaypracticecover.png",
+      "price": "",
+      "status": "active",
+      "created_at": "2026-11-20T00:00:00Z",
+      "tags": [],
+      "link_source": "store_import"
+    },
+    {
+      "id": "7e38cb10c34e",
+      "title": "AQA English Language Paper 2 Question 4 GCSE",
+      "description": "",
+      "url": "https://www.tes.com/teaching-resource/aqa-english-language-paper-2-question-4-gcse-13675003",
+      "platform": "tes",
+      "image_url": "https://d1e4pidl3fu268.cloudfront.net/15abe4f3-41d5-448d-b351-b47d0fa109cd/aqaenglishlanguagepaper2question4mockreadingpackcocover.png",
+      "price": "",
+      "status": "active",
+      "created_at": "2026-11-20T00:00:00Z",
+      "tags": [],
+      "link_source": "store_import"
     }
   ]
 }
