@@ -660,6 +660,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611736075/",
       "title": "A-Level Chemistry Practical Skills Revision for Pupils Who Lose Marks on Practical Questions",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/644d19c064d3_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "795a4aa572e2",
+      "variant_id": "795a4aa572e2:c0:v2",
+      "published_at": "2026-11-20T20:11:25.512833+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611748061",
+      "pin_url": "https://www.pinterest.com/pin/982347737611748061/",
+      "title": "GCSE Poetry Comparison AQA Power and Conflict: Save Planning Time and Build Pupil Confidence",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/795a4aa572e2_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -1004,6 +1016,22 @@
       "failures": 0
     },
     "d48ca4720ab2": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "795a4aa572e2": {
+      "posts": 1,
+      "cycle": 0,
+      "variants_used": [
+        2
+      ],
+      "last_posted": "2026-11-20T20:11:25.512833+00:00",
+      "failures": 0
+    },
+    "7e38cb10c34e": {
       "posts": 0,
       "cycle": 0,
       "variants_used": [],
