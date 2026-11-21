@@ -720,6 +720,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611777259/",
       "title": "Dog Boarding Business Planner Printable to End Holiday Booking Chaos",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/f4bb7c7a77d9_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "274c4c59e009",
+      "variant_id": "274c4c59e009:c0:v2",
+      "published_at": "2026-11-21T22:26:46.217929+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611781250",
+      "pin_url": "https://www.pinterest.com/pin/982347737611781250/",
+      "title": "Pack for the Whole Family in Minutes with This 4 Page Printable Packing List Checklist",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/274c4c59e009_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -1021,12 +1033,13 @@
       "failures": 0
     },
     "274c4c59e009": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        0
+        0,
+        2
       ],
-      "last_posted": "2026-11-14T07:38:57.512643+00:00",
+      "last_posted": "2026-11-21T22:26:46.217929+00:00",
       "failures": 0
     },
     "10ad8a6b7ee1": {
