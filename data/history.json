@@ -696,6 +696,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611763293/",
       "title": "Notion Newsletter Sponsorship CRM Template for Ad Slots, Sponsors and Invoices",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "86d52312e443",
+      "variant_id": "86d52312e443:c0:v2",
+      "published_at": "2026-11-21T11:45:30.118587+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611766582",
+      "pin_url": "https://www.pinterest.com/pin/982347737611766582/",
+      "title": "90-Day Goal Planner Printable: Turn 3 Goals Into a Plan You'll Actually Keep",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/86d52312e443_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -943,12 +955,13 @@
       "failures": 0
     },
     "86d52312e443": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-07T21:13:26.201519+00:00",
+      "last_posted": "2026-11-21T11:45:30.118587+00:00",
       "failures": 0
     },
     "104fcc5544cd": {
