@@ -684,6 +684,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611752013/",
       "title": "Personal Finance Lessons for High School: 5 No Prep Sub Plans on Paychecks and Taxes",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/837d8185a75b_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "fe87e9bcd701",
+      "variant_id": "fe87e9bcd701:c0:v1",
+      "published_at": "2026-11-21T08:20:26.371102+00:00",
+      "platform": "notion",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611763293",
+      "pin_url": "https://www.pinterest.com/pin/982347737611763293/",
+      "title": "Notion Newsletter Sponsorship CRM Template for Ad Slots, Sponsors and Invoices",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -726,13 +738,14 @@
       "failures": 0
     },
     "fe87e9bcd701": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         0,
-        2
+        2,
+        1
       ],
-      "last_posted": "2026-11-15T22:04:43.789034+00:00",
+      "last_posted": "2026-11-21T08:20:26.371102+00:00",
       "failures": 0
     },
     "a1a7c1167580": {
