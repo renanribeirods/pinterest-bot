@@ -768,6 +768,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611808124/",
       "title": "Year 11 PSHE Lessons for the Autumn Term: Post-16 Applications Made Clear",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/3728f9c72aaf_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "dcc743e2da26",
+      "variant_id": "dcc743e2da26:c0:v0",
+      "published_at": "2026-11-22T22:47:06.785703+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611812753",
+      "pin_url": "https://www.pinterest.com/pin/982347737611812753/",
+      "title": "Anachronism Activities for Middle School: 5 No Prep History Detective Lessons for Grades 6-8",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/dcc743e2da26_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -897,12 +909,13 @@
       "failures": 0
     },
     "dcc743e2da26": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        0
       ],
-      "last_posted": "2026-11-08T10:43:01.915120+00:00",
+      "last_posted": "2026-11-22T22:47:06.785703+00:00",
       "failures": 0
     },
     "837d8185a75b": {
