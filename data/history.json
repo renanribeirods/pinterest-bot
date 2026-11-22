@@ -732,6 +732,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611781250/",
       "title": "Pack for the Whole Family in Minutes with This 4 Page Printable Packing List Checklist",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/274c4c59e009_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "8271341ae7b8",
+      "variant_id": "8271341ae7b8:c1:v2",
+      "published_at": "2026-11-22T08:01:57.872226+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611791617",
+      "pin_url": "https://www.pinterest.com/pin/982347737611791617/",
+      "title": "No Prep English Lessons for High School: Resumes and Emails Students Can Use in Real Life",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/8271341ae7b8_c1_v2_ai.jpg"
     }
   ],
   "products": {
@@ -878,14 +890,12 @@
       "failures": 0
     },
     "8271341ae7b8": {
-      "posts": 3,
-      "cycle": 0,
+      "posts": 4,
+      "cycle": 1,
       "variants_used": [
-        1,
-        0,
         2
       ],
-      "last_posted": "2026-11-17T12:26:43.144416+00:00",
+      "last_posted": "2026-11-22T08:01:57.872226+00:00",
       "failures": 0
     },
     "1505fa265b7b": {
