@@ -792,6 +792,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611823467/",
       "title": "Christmas Gift Planner Printable: Get Organized Before Black Friday and Cyber Monday",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/041058a7bbec_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "a1502317dc33",
+      "variant_id": "a1502317dc33:c1:v2",
+      "published_at": "2026-11-23T13:38:54.528863+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611827649",
+      "pin_url": "https://www.pinterest.com/pin/982347737611827649/",
+      "title": "Emergency Sub Plans for High School Personal Finance: Scams and Fraud, No Prep Needed",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c1_v2_ai.jpg"
     }
   ],
   "products": {
@@ -981,14 +993,12 @@
       "failures": 0
     },
     "a1502317dc33": {
-      "posts": 3,
-      "cycle": 0,
+      "posts": 4,
+      "cycle": 1,
       "variants_used": [
-        0,
-        2,
-        1
+        2
       ],
-      "last_posted": "2026-11-12T22:55:37.211192+00:00",
+      "last_posted": "2026-11-23T13:38:54.528863+00:00",
       "failures": 0
     },
     "f4bb7c7a77d9": {
