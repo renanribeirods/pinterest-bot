@@ -804,6 +804,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611827649/",
       "title": "Emergency Sub Plans for High School Personal Finance: Scams and Fraud, No Prep Needed",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1502317dc33_c1_v2_ai.jpg"
+    },
+    {
+      "product_id": "2d1b9d42c1c4",
+      "variant_id": "2d1b9d42c1c4:c0:v0",
+      "published_at": "2026-11-23T23:59:17.980274+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611843503",
+      "pin_url": "https://www.pinterest.com/pin/982347737611843503/",
+      "title": "AQA A Christmas Carol Revision Year 11 Mock: 5 Resources Pupils Need Before the Exam",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/2d1b9d42c1c4_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -1124,12 +1136,13 @@
       "failures": 0
     },
     "2d1b9d42c1c4": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        0
       ],
-      "last_posted": "2026-11-15T11:35:39.678270+00:00",
+      "last_posted": "2026-11-23T23:59:17.980274+00:00",
       "failures": 0
     },
     "9f242f3585f5": {
@@ -1172,6 +1185,20 @@
       "failures": 0
     },
     "7e38cb10c34e": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "c82226258b4b": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "d0abeef82625": {
       "posts": 0,
       "cycle": 0,
       "variants_used": [],
