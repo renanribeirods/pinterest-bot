@@ -780,6 +780,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611812753/",
       "title": "Anachronism Activities for Middle School: 5 No Prep History Detective Lessons for Grades 6-8",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/dcc743e2da26_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "041058a7bbec",
+      "variant_id": "041058a7bbec:c0:v1",
+      "published_at": "2026-11-23T09:05:00.671390+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611823467",
+      "pin_url": "https://www.pinterest.com/pin/982347737611823467/",
+      "title": "Christmas Gift Planner Printable: Get Organized Before Black Friday and Cyber Monday",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/041058a7bbec_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -1020,13 +1032,14 @@
       "failures": 0
     },
     "041058a7bbec": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         0,
-        2
+        2,
+        1
       ],
-      "last_posted": "2026-11-19T20:31:30.845646+00:00",
+      "last_posted": "2026-11-23T09:05:00.671390+00:00",
       "failures": 0
     },
     "86d52312e443": {
