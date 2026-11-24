@@ -840,6 +840,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611854150/",
       "title": "GCSE English Language Paper 2 Question 4 Ideas for Teaching AQA Comparison in Your Lessons",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/7e38cb10c34e_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "50b20cfddc00",
+      "variant_id": "50b20cfddc00:c0:v2",
+      "published_at": "2026-11-24T14:18:05.438767+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611857686",
+      "pin_url": "https://www.pinterest.com/pin/982347737611857686/",
+      "title": "OCR A Level Chemistry Practical Skills Resources for Year 12 and Year 13 Teachers",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/50b20cfddc00_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -874,13 +886,14 @@
       "failures": 0
     },
     "50b20cfddc00": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         0,
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-18T08:38:54.757426+00:00",
+      "last_posted": "2026-11-24T14:18:05.438767+00:00",
       "failures": 0
     },
     "fe87e9bcd701": {
