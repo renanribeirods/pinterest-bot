@@ -828,6 +828,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611847735/",
       "title": "Teaching Resource Ideas for UK Classrooms: Ready-to-Use Lesson Activities for Busy Teachers",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/10ad8a6b7ee1_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "7e38cb10c34e",
+      "variant_id": "7e38cb10c34e:c0:v1",
+      "published_at": "2026-11-24T11:00:26.107752+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611854150",
+      "pin_url": "https://www.pinterest.com/pin/982347737611854150/",
+      "title": "GCSE English Language Paper 2 Question 4 Ideas for Teaching AQA Comparison in Your Lessons",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/7e38cb10c34e_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -1199,10 +1211,12 @@
       "failures": 0
     },
     "7e38cb10c34e": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-24T11:00:26.107752+00:00",
       "failures": 0
     },
     "c82226258b4b": {
