@@ -876,6 +876,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611873710/",
       "title": "AQA English Language Paper 2 Question 5 Mock Prep for the Autumn Term",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1a7c1167580_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "34f28e63d23d",
+      "variant_id": "34f28e63d23d:c0:v1",
+      "published_at": "2026-11-25T09:50:26.703845+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611882360",
+      "pin_url": "https://www.pinterest.com/pin/982347737611882360/",
+      "title": "High School English Sub Plans: 5 No Prep Media Literacy Lessons on AI and Fake News, Grades 9-12",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/34f28e63d23d_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -1047,13 +1059,14 @@
       "failures": 0
     },
     "34f28e63d23d": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         0,
-        2
+        2,
+        1
       ],
-      "last_posted": "2026-11-19T12:04:27.253418+00:00",
+      "last_posted": "2026-11-25T09:50:26.703845+00:00",
       "failures": 0
     },
     "55262f45cfd4": {
