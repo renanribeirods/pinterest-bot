@@ -864,6 +864,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611870254/",
       "title": "Last-Minute Sub Plans for High School? Buying a Home Personal Finance Lessons",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/435b340d34e8_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "a1a7c1167580",
+      "variant_id": "a1a7c1167580:c0:v1",
+      "published_at": "2026-11-25T01:44:40.268317+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611873710",
+      "pin_url": "https://www.pinterest.com/pin/982347737611873710/",
+      "title": "AQA English Language Paper 2 Question 5 Mock Prep for the Autumn Term",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/a1a7c1167580_c0_v1_ai.jpg"
     }
   ],
   "products": {
@@ -920,10 +932,12 @@
       "failures": 0
     },
     "a1a7c1167580": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        1
+      ],
+      "last_posted": "2026-11-25T01:44:40.268317+00:00",
       "failures": 0
     },
     "e1235cdf04db": {
