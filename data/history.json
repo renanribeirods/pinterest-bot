@@ -912,6 +912,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611898979/",
       "title": "Emergency Sub Plans for Personal Finance: No Prep Lessons on Rent, Car Loans and Insurance",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/373a87724945_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "435b340d34e8",
+      "variant_id": "435b340d34e8:c0:v2",
+      "published_at": "2026-11-26T01:10:10.050276+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611903099",
+      "pin_url": "https://www.pinterest.com/pin/982347737611903099/",
+      "title": "Personal Finance Lessons High School: Buying a Home Activities and Sub Plans Grades 9-12",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/435b340d34e8_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -1266,12 +1278,13 @@
       "failures": 0
     },
     "435b340d34e8": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-24T22:31:44.030480+00:00",
+      "last_posted": "2026-11-26T01:10:10.050276+00:00",
       "failures": 0
     },
     "d48ca4720ab2": {
