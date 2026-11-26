@@ -936,6 +936,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611911051/",
       "title": "Emergency Sub Plans for High School Personal Finance: Paychecks and Taxes, No Prep",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/837d8185a75b_c0_v2_ai.jpg"
+    },
+    {
+      "product_id": "2c49db3b1c8d",
+      "variant_id": "2c49db3b1c8d:c0:v0",
+      "published_at": "2026-11-26T13:13:50.003393+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611915371",
+      "pin_url": "https://www.pinterest.com/pin/982347737611915371/",
+      "title": "Undated Semester Planner Printable to Organize Classes, Deadlines and Goals Without the Overwhelm",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/2c49db3b1c8d_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -1347,10 +1359,12 @@
       "failures": 0
     },
     "2c49db3b1c8d": {
-      "posts": 0,
+      "posts": 1,
       "cycle": 0,
-      "variants_used": [],
-      "last_posted": null,
+      "variants_used": [
+        0
+      ],
+      "last_posted": "2026-11-26T13:13:50.003393+00:00",
       "failures": 0
     }
   }
