@@ -948,6 +948,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611915371/",
       "title": "Undated Semester Planner Printable to Organize Classes, Deadlines and Goals Without the Overwhelm",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/2c49db3b1c8d_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "86d52312e443",
+      "variant_id": "86d52312e443:c0:v0",
+      "published_at": "2026-11-26T21:30:26.582997+00:00",
+      "platform": "etsy",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611928260",
+      "pin_url": "https://www.pinterest.com/pin/982347737611928260/",
+      "title": "New Year Goal Setting Printable: What's Inside This 6-Page 90-Day Goal Planner",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/86d52312e443_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -1204,13 +1216,14 @@
       "failures": 0
     },
     "86d52312e443": {
-      "posts": 2,
+      "posts": 3,
       "cycle": 0,
       "variants_used": [
         1,
-        2
+        2,
+        0
       ],
-      "last_posted": "2026-11-21T11:45:30.118587+00:00",
+      "last_posted": "2026-11-26T21:30:26.582997+00:00",
       "failures": 0
     },
     "104fcc5544cd": {
