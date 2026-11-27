@@ -996,6 +996,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611945446/",
       "title": "Autumn Term Teaching Resource to Save Planning Time Before Christmas",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/10ad8a6b7ee1_c0_v1_ai.jpg"
+    },
+    {
+      "product_id": "fe87e9bcd701",
+      "variant_id": "fe87e9bcd701:c1:v1",
+      "published_at": "2026-11-27T21:17:07.240699+00:00",
+      "platform": "notion",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611956839",
+      "pin_url": "https://www.pinterest.com/pin/982347737611956839/",
+      "title": "5 Things Your Newsletter Sponsorship Notion Workspace Needs Before the Holiday Ad Rush",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c1_v1_ai.jpg"
     }
   ],
   "products": {
@@ -1039,14 +1051,12 @@
       "failures": 0
     },
     "fe87e9bcd701": {
-      "posts": 3,
-      "cycle": 0,
+      "posts": 4,
+      "cycle": 1,
       "variants_used": [
-        0,
-        2,
         1
       ],
-      "last_posted": "2026-11-21T08:20:26.371102+00:00",
+      "last_posted": "2026-11-27T21:17:07.240699+00:00",
       "failures": 0
     },
     "a1a7c1167580": {
