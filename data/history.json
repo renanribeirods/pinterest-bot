@@ -960,6 +960,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611928260/",
       "title": "New Year Goal Setting Printable: What's Inside This 6-Page 90-Day Goal Planner",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/86d52312e443_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "704870e3369d",
+      "variant_id": "704870e3369d:c0:v0",
+      "published_at": "2026-11-27T01:12:14.685818+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611932739",
+      "pin_url": "https://www.pinterest.com/pin/982347737611932739/",
+      "title": "High School Creative Writing Sub Plans: 5 No Prep Lessons for Grades 9-12",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/704870e3369d_c0_v0_ai.jpg"
     }
   ],
   "products": {
@@ -1246,12 +1258,13 @@
       "failures": 0
     },
     "704870e3369d": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        0
       ],
-      "last_posted": "2026-11-14T21:48:18.180973+00:00",
+      "last_posted": "2026-11-27T01:12:14.685818+00:00",
       "failures": 0
     },
     "6d474ef5aac1": {
