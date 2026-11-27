@@ -972,6 +972,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611932739/",
       "title": "High School Creative Writing Sub Plans: 5 No Prep Lessons for Grades 9-12",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/704870e3369d_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "644d19c064d3",
+      "variant_id": "644d19c064d3:c1:v2",
+      "published_at": "2026-11-27T09:42:36.750589+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611941783",
+      "pin_url": "https://www.pinterest.com/pin/982347737611941783/",
+      "title": "Pupils Struggling With Chemistry Practical Questions? A-Level Skills Revision Made Simple",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/644d19c064d3_c1_v2_ai.jpg"
     }
   ],
   "products": {
@@ -995,14 +1007,12 @@
       "failures": 0
     },
     "644d19c064d3": {
-      "posts": 3,
-      "cycle": 0,
+      "posts": 4,
+      "cycle": 1,
       "variants_used": [
-        0,
-        1,
         2
       ],
-      "last_posted": "2026-11-20T12:13:01.023742+00:00",
+      "last_posted": "2026-11-27T09:42:36.750589+00:00",
       "failures": 0
     },
     "50b20cfddc00": {
