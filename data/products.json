@@ -622,6 +622,60 @@
       "url": "https://www.etsy.com/listing/4625518855",
       "status": "active",
       "linked_at": "2026-11-25"
+    },
+    {
+      "id": "10ad8a6b7ee1",
+      "title": "Teaching Resource",
+      "description": "",
+      "platform": "tes",
+      "image_url": "",
+      "tags": [],
+      "created_at": "2026-11-27T00:00:00Z",
+      "link_source": "notes",
+      "title_from_url": true,
+      "url": "https://www.tes.com/teaching-resource/resource-13696855",
+      "status": "active",
+      "linked_at": "2026-11-27"
+    },
+    {
+      "id": "10ad8a6b7ee1",
+      "title": "Teaching Resource",
+      "description": "",
+      "platform": "tes",
+      "image_url": "",
+      "tags": [],
+      "created_at": "2026-11-27T00:00:00Z",
+      "link_source": "notes",
+      "title_from_url": true,
+      "url": "https://www.tes.com/teaching-resource/-13696866",
+      "status": "active",
+      "linked_at": "2026-11-27"
+    },
+    {
+      "id": "89daa42ddf8d",
+      "title": "Jekyll and Hyde Exam Questions: GCSE AQA",
+      "description": "",
+      "url": "https://www.tes.com/teaching-resource/jekyll-and-hyde-exam-questions-gcse-aqa-13696855",
+      "platform": "tes",
+      "image_url": "https://d1e4pidl3fu268.cloudfront.net/58192bba-bbd5-43c3-ab14-448a4bb6aeaf/jekyllandhydeexamquestionsviolenceanddualityextractcover.png",
+      "price": "",
+      "status": "active",
+      "created_at": "2026-11-27T00:00:00Z",
+      "tags": [],
+      "link_source": "store_import"
+    },
+    {
+      "id": "b8c1d47b60c6",
+      "title": "An Inspector Calls Revision GCSE Lessons",
+      "description": "",
+      "url": "https://www.tes.com/teaching-resource/an-inspector-calls-revision-gcse-lessons-13696866",
+      "platform": "tes",
+      "image_url": "https://d1e4pidl3fu268.cloudfront.net/a62a0c12-fe9c-4554-b82d-fb4735834ea3/aninspectorcallsrevisionresponsibilityandsocialclasscover.png",
+      "price": "",
+      "status": "active",
+      "created_at": "2026-11-27T00:00:00Z",
+      "tags": [],
+      "link_source": "store_import"
     }
   ]
 }
