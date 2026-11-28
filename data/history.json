@@ -1032,6 +1032,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611971102/",
       "title": "High School English Sub Plans Argument Writing: 5 No Prep Lessons for Grades 9-12 | Vol 5",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/c82226258b4b_c0_v0_ai.jpg"
+    },
+    {
+      "product_id": "55262f45cfd4",
+      "variant_id": "55262f45cfd4:c1:v0",
+      "published_at": "2026-11-28T12:22:22.940526+00:00",
+      "platform": "tpt",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611974277",
+      "pin_url": "https://www.pinterest.com/pin/982347737611974277/",
+      "title": "Personal Finance Sub Plans for High School That Run Themselves While You're Out",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/55262f45cfd4_c1_v0_ai.jpg"
     }
   ],
   "products": {
@@ -1214,14 +1226,12 @@
       "failures": 0
     },
     "55262f45cfd4": {
-      "posts": 3,
-      "cycle": 0,
+      "posts": 4,
+      "cycle": 1,
       "variants_used": [
-        2,
-        0,
-        1
+        0
       ],
-      "last_posted": "2026-11-20T08:31:29.216561+00:00",
+      "last_posted": "2026-11-28T12:22:22.940526+00:00",
       "failures": 0
     },
     "a1502317dc33": {
