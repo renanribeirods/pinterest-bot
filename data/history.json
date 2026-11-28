@@ -1008,6 +1008,18 @@
       "pin_url": "https://www.pinterest.com/pin/982347737611956839/",
       "title": "5 Things Your Newsletter Sponsorship Notion Workspace Needs Before the Holiday Ad Rush",
       "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/fe87e9bcd701_c1_v1_ai.jpg"
+    },
+    {
+      "product_id": "3728f9c72aaf",
+      "variant_id": "3728f9c72aaf:c0:v2",
+      "published_at": "2026-11-28T00:46:22.979717+00:00",
+      "platform": "tes",
+      "template": "ai_design",
+      "channel": "webhook",
+      "pin_id": "982347737611961549",
+      "pin_url": "https://www.pinterest.com/pin/982347737611961549/",
+      "title": "Post-16 Applications Lessons for Year 11 When Pupils Don't Know What Comes Next",
+      "image_url": "https://raw.githubusercontent.com/renanribeirods/pinterest-bot/pin-assets/pins/3728f9c72aaf_c0_v2_ai.jpg"
     }
   ],
   "products": {
@@ -1022,12 +1034,13 @@
       "failures": 0
     },
     "3728f9c72aaf": {
-      "posts": 1,
+      "posts": 2,
       "cycle": 0,
       "variants_used": [
-        1
+        1,
+        2
       ],
-      "last_posted": "2026-11-22T19:38:43.002053+00:00",
+      "last_posted": "2026-11-28T00:46:22.979717+00:00",
       "failures": 0
     },
     "644d19c064d3": {
@@ -1424,6 +1437,20 @@
         0
       ],
       "last_posted": "2026-11-26T13:13:50.003393+00:00",
+      "failures": 0
+    },
+    "89daa42ddf8d": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
+      "failures": 0
+    },
+    "b8c1d47b60c6": {
+      "posts": 0,
+      "cycle": 0,
+      "variants_used": [],
+      "last_posted": null,
       "failures": 0
     }
   }
